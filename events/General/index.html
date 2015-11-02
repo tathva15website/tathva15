@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1024" />
+	<title>Category Name</title>
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/mods.css">
+	<script src="js/modernizr.custom.js"></script>
+	<!-- Bouncy Navigation Files -->
+	<link rel="stylesheet" href="bouncer/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="bouncer/css/style.css"> <!-- Resource style -->
+	<script src="bouncer/js/modernizr.js"></script> <!-- Modernizr -->
+	<!-- Navigator files -->
+	<link rel="stylesheet" href="navigator/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="navigator/css/style.css"> <!-- Resource style -->
+	<script src="navigator/js/modernizr.js"></script> <!-- Modernizr -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="../general.css" rel="stylesheet" type="text/css">
+	<script src="../general.js"></script>
+	
+</head>
+<body>
+
+	<a href="http://www.tathva.org/"><img id="tathvapic" src="../general_images/home.png" alt="Tathva pic"></a>
+
+	<a id="permodal" class="openthemodal permreg" >Get Tathva ID</a>
+
+	<style>
+    	.openthemodal{
+			padding:10px !important;
+			cursor:pointer;	
+			width:120px;
+		}
+    </style>
+
+	<div id="openModal" class="modalDialog">
+	    
+	    <div><a href="" title="Close1" class="close1">X</a>
+
+	    <iframe id="frames" src="" frameborder="0" scrolling="no"></iframe>
+	        
+	    </div>
+	</div>
+
+	<!-- Main container -->
+	<div class="container" style="opacity : 1">
+
+		<section class="cd-section">
+			<a class="cd-bouncy-nav-trigger" href="#0">SEE ALL EVENT CATEGORIES</a>
+		</section> <!-- .cd-section -->
+
+<div class="cd-bouncy-nav-modal">
+			<style>
+			
+			
+            	.cd-bouncy-nav a{
+						opacity:0;
+				}
+				
+				.cd-bouncy-nav a::before{
+					display:none;
+					
+				}
+				
+            	.cd-bouncy-nav li:hover a{
+						opacity:1;
+				}
+				.cd-bouncy-nav li{
+					height: 160px;
+    				overflow: hidden;
+				}
+            </style>
+            
+            <nav >
+				<ul class="cd-bouncy-nav">
+					<li style="background:url(ic1/ec.png);background-size:contain;"><a href="../Electronics/index.html" style="width:100%;height:100%">Electronics</a></li>
+					<li style="background:url(ic1/elec.png);background-size:contain;"><a href="../Electrical/index.html"  style="width:100%;height:100%">Electrical</a></li>
+					<li style="background:url(ic1/robotics.png);background-size:contain;"><a href="../Robotics/index.html"  style="width:100%;height:100%">Robotics</a></li>
+					<li style="background:url(ic1/blueprint.png);background-size:contain;"><a href="../Blueprint/index.html"  style="width:100%;height:100%">Blueprint<br>paper<br>presentation</a></li>
+					<li style="background:url(ic1/adizya.png);background-size:contain;"><a href="../Adizya/index.html"  style="width:100%;height:100%">Adizya</a></li>
+					<li style="background:url(ic1/blizk.png);background-size:contain;"><a href="../Blitzkrieg/index.html"  style="width:100%;height:100%">Blitzkrieg</a></li>
+					<li style="background:url(ic1/phy.png);background-size:contain;"><a href="../Physics/index.html"  style="width:100%;height:100%">Physics</a></li>
+					<li style="background:url(ic1/online.png);background-size:contain;"><a href="../Online Events/index.html"  style="width:100%;height:100%">Online Events</a></li>
+					<li style="background:url(ic1/quiz.png);background-size:contain;"><a href="../Quiz/index.html"  style="width:100%;height:100%">Quizzing</a></li>
+					<li style="background:url(ic1/mech.png);background-size:contain;"><a href="../Mechanical/index.html"  style="width:100%;height:100%">Mechanical</a></li>
+					<li style="background:url(ic1/civil.png);background-size:contain;"><a href="../Civil/index.html"  style="width:100%;height:100%">Civil</a></li>
+					<li style="background:url(ic1/general.png);background-size:contain;"><a href="../General/index.html"  style="width:100%;height:100%">General</a></li>
+					<li style="background:url(ic1/CS.png);background-size:contain;"><a href="../Computer_Science/index.html"  style="width:100%;height:100%">Computer Science</a></li>					
+					<li style="background:url(ic1/youngengg.png);background-size:contain;"><a href="../Young_Engineer/index.html"  style="width:100%;height:100%">Young Engineer</a></li>
+					<li style="background:url(ic1/manag.png);background-size:contain;"><a href="../Bizspark/index.html"  style="width:100%;height:100%">Bizspark</a></li>
+					<li style="background:url(ic1/workshop.png);background-size:contain;"><a href="../Workshops/index.html"  style="width:100%;height:100%">Workshops</a></li>
+					<li style="background:url(ic1/chemical.png);background-size:contain;"><a href="../Chemical/index.html"  style="width:100%;height:100%">Chemical</a></li>
+					
+				</ul>
+			
+			<a href="#0" class="cd-close">Close modal</a>
+
+		</div>
+		
+		<!-- Grid -->
+		
+		<section class="slider">
+			<div class="slide" data-content="content-6">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/general.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> GENERAL </span> </h2>
+				
+			</div>			
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/general.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> GENERAL </span> </h2>
+				
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/general.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> GENERAL </span> </h2>
+				
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/general.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> GENERAL </span> </h2>
+			
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/general.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>GENERAL </span> </h2>
+				
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/general.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> GENERAL </span> </h2>
+				
+			</div>
+			
+			<nav class="slider__nav">
+				<button class="button button--nav-prev" id="moveleft"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom" id="magnify"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next" id="moveright"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-6" href="GE006">
+				<div class="content__item-inner">
+					<h2>L&T Day-Technical Ideation Contest</h2>
+					<p>L&T Technical Ideation Contest would involve “Out-of-the-Box” thinking for generating and developing new ideas to solve a problem or improve a product, process, or service</p>
+					<div class="inst">
+						<p>Date: 30th Oct 2015</p>
+						<p>Venue: NIT-Calicut</p>
+						<p>Duration: 10 am onwards</p>
+						<h2> Awards & Certificates </h2>
+						<p>a. 1st Prize-Rs 20000/- worth gifts & Certificate.</p>
+						<p>b. 2nd Prize-Rs 10000/- worth gifts & Certificate.</p>
+						<p>c. 2rd Prize-Rs 5000/- worth gifts & Certificate.</p>
+					
+					</div>
+						<div class="inst">
+						<h2> Registration </h2>
+						<p>1. Registration: Being coordinated on campus and online by NIT Calicut Tathva 2015 Organising Team.</p>
+						<p>2. Participation on first-come-first-basis.</p>
+						
+					
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<div class="content__item" id="content-1" href="GE001">
+				<div class="content__item-inner">
+					<h2>INFORMALS TREASURE HUNT</h2>
+					<p>Extraordinary things are always hiding in places, people usually don’t think to look.
+But, do you!?
+</p>
+					<div class="inst">
+						<h2> RULES </h2>
+						<ul>
+							<li>A prelims round will be conducted based on which finalists will be shortlisted.
+</li>
+							<li>Finalists 5 teams – 3 to 5 participants each.</li>
+							<li>Will be held within NITC campus .
+</li>
+							<li>Remaining detailts will be given on the spot.
+ </li>
+						
+							
+						</ul>
+					
+					</div>
+						<div class="inst">
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 3000</p>
+						<p>Second prize : 2000</p>
+						<p>Third Prize : 1000</p>
+						<H2>SCHEDULE</H2>
+						<H3>PRELIMS</H3>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 9:30 AM</P>
+						<H3>FINALS</H3>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 11:30 AM</P>
+						<h2> CONTACT </h2>
+						<p>JIFIN CHERIAN   9446671364</p>
+						<p>RHEA ASWINI   9746630501</p>
+						<p>SOORAJ LATHEESHAN  8086546770</p>
+						
+					
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+            <div class="content__item" id="content-2" href="GE002">
+				<div class="content__item-inner">
+					<h2>INQUISITO VIRTUOSO</h2>
+					<p>Create your own path, don't follow the trail blindly or else you may fall into a trap.  Play the blame game, be ambitious because your life is at stake. What if your friends turn out to be your foes? The fear of death follows from the fear of life. Revealing too much leaves you with nothing. Start where you are, use what you have to investigate, analyze and find the accused.
+
+</p>
+					<div class="inst">
+						<h2> RULES </h2>
+						<ul>
+							<p>Minimum of 2 and maximum of 4 participants in a team.</p>
+							<p>There will be three rounds in all.</p>
+							<p>
+							Round I<br/>
+
+A written exam testing your aptitude, forensic and observation skills.
+8 teams will qualify for Round II.<br/>
+
+ Round II<br/>
+
+Teams will have to search for more clues, collect evidences outside the crime scene. Based on clues collected, the teams will go further in Round III.
+5 teams will be shortlisted for the final round.<br/>
+
+Round III<br/>
+
+Teams will analyze the final crime scene, reason it and present it in front of judges. Points will be given based on the reasoning and evidence collected.
+The rules are subject to change based on the circumstances.<br/>
+In case of tie, a new task will be given to the participants according to the decision of the judges.
+The decision of the judges shall be final.
+
+
+							</p>
+						
+						</ul>
+						<div class="inst">
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 9000</p>
+						<p>Second prize : 4000</p>
+						<p>Third Prize : 2000</p>
+						<H2>SCHEDULE</H2>
+						<H3>ROUND 1</H3>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 9:30 AM</p>
+						<H3>ROUND 2&3</H3>
+						<P>DATE : NOVEMBER 1</P>
+						<P>TIME : 9:30 AM</P>
+						<h2>CONTACT</h2>
+						<p>K VAISHNAVI : 9526620696</p>
+						<p>ANUDEEP AKKANA : 7736795556</p>
+						<p>K TEJASWINI MANASA : 9567036499</p>
+						<h2>EVENT MAIL</H2>
+						<P>inq@tathva.org</P>
+						</div>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<div class="content__item" id="content-3" href="GE003">
+				<div class="content__item-inner">
+					<h2>INTERFACE</h2>
+					<p>INTERFACE is a national level project development initiative, 
+organized by IEEE NITC Student Branch and Tathva 2015, 
+which provides a platform for budding engineers and innovators 
+to get their projects funded. Entries are invited from the working 
+model category under any stream of engineering .The 
+shortlisting will be based on the technical and creative content 
+of the project.
+</p>
+					<div class="inst">
+						<h2> RULES </h2>
+						<ul>
+							<li>A team representing an institute can consist a minimum of 1 member and a maximum        
+   of 5 members.</li>
+							<li>Multiple teams can represent an institute.
+
+</li>
+							<li>Projects coming under any wing of engineering are welcome.
+</li>
+							<li>A team can submit a maximum of five different projects/prototypes.
+</li>
+<li>The projects may be put up for public display.
+
+</li>							
+						</ul>
+						<p>The participating teams must submit an abstract to 
+     interface@tathva.org on or before 25th October 2015. 
+
+</p>
+						
+					</div>
+					<div class="inst">
+					<h2>ABSTRACT</h2>
+					<ul>
+					<li>A detailed description of the project must be submitted in less than 200 words.
+
+</li>
+					<li>Other Medias can be used to describe the project clearly.
+
+</li>
+					<li>The phone number and email address of all the team members 
+    must be submitted.
+</li>
+					<li>The name of the college and other necessary details should be 
+    included in the abstract.	</li>
+					</ul>
+					</div>
+					<div class="inst">
+					<h2>JUDGING CRITERIA</h2>
+					<ul><li>A preliminary round will be conducted based on the abstract 
+   submitted to ensure minimum quality of the project.
+
+					</li>
+					<li>The main evaluation procedures will be conducted on  the date 
+   of the event, 30 OCTOBER 2015 , done by the distinguished 
+   faculty of NIT Calicut.
+</li>
+<li>Innovation and the extend of practical application are the 
+    primary basis of project evaluation with a small weightage for 
+    the project presentation. </li>
+</ul>
+					</div>
+					<div class="inst">
+					<h2>PRIZES WORTH</H2>
+						<P>First prize : 18000</p>
+						<p>Second prize : 12000</p>
+						<p>Third Prize : 6000</p>
+					<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30&31</P>
+						<P>TIME : 9:30 AM</P>
+					<h2>CONTACT</h2>
+					<p> Nimisha Jose : 9400954679
+</p>
+					<p>Mithun Krishnan: 8547061586
+</p>
+					<p> Neha Anna:7736802348</p>
+					<p>Nidhisha Dhananjayan: 94468121133</p>
+					<h2>EVENT MAIL</H2>
+						<P>interface@tathva.org</P>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<div class="content__item" id="content-4" href="GE004">
+				<div class="content__item-inner">
+					<h2>LOG IQ </h2>
+					<p>For all the logic inquisitors right there, Log I Q awaits your presence this Tathva!. Brain is the ultimate weapon in this quest. Decipher codes, bend your brains and win scores in this challenging logic platform.
+
+</p>
+					<div class="inst">
+						<h2>RULES </h2>
+						<ul>
+							<li>The event consists of two rounds : prelims and finals
+</li>
+<li>The prelims will be written round based on logic and elementary Math questions.</li>
+<li>Top 6 teams from prelims will get shortlisted to final round.
+
+</li>
+<li>Final round will comprise of multiple rounds testing your observational skills plus your ability to correlate multiple tasks.</li>
+<li>This event is a team based event in which one team consists of 2 participants.</li>
+
+						</ul>
+						
+					</div>
+					<div class="inst">
+					<h2>PRIZES WORTH</H2>
+						<P>First prize : 4500</p>
+						<p>Second prize : 2500</p>
+						<p>Third Prize : 1000</p>
+					<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 9:30 AM</P>
+					<h2>CONTACT</h2>
+					<p>Anjana B Nair : 8547432065</p>
+					<p>Arjun Madusoodhanan : 8089119719</p>
+					<p>Sadhana Bharadwaj : 8137900669</p>
+					<p>Bhogadi Jaswanth Vishnu : 8137900667</p>
+					<h2>EVENT MAIL</H2>
+						<P>logiq@tathva.org</P>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<div class="content__item" id="content-5" href="GE005">
+				
+				<div class="content__item-inner">
+					
+					<h2>TATHVA CUBE OPEN</h2>
+					<p>Tathva Cube Open, the speed cubing event, with WCA recognition , welcomes cubers  all over the country to showcase your speed cubing skills at this breathtaking event. Age is never a limitation to challenge the world of cubers here at TCO.
+</p>
+					<div class="inst">
+						<h2>EVENTS  </h2>
+						<p>2x2x2</p>
+						<p>3x3x3</p>
+						<p>4x4x4</p>
+						<p>3x3x3 One Handed</p>
+						<p>3x3x3 Blind Folded</p>
+							
+						
+					</div>
+					<a target="_blank" href="https://www.worldcubeassociation.org/"><img src="images/wca.png" height="150px" width="150px" style="float : right; margin-top : -100px"></a>
+					<div class="inst">
+					<h2>RULES :</h2>
+					<ul>
+					<li>The event will span a day.</li>
+					<li>No previous experience is required.
+</li>
+					<li>All participants should register online both at tathva website and WCA Competition page.
+</li>
+					<li>Competitors must bring their own puzzles (including blindfold). Competitors may borrow puzzles from other competitors, however both competitors must be ready to compete when they are called for.Competitors must be present at least 15 minutes before the event.Competitors as well as audience are requested to maintain proper silence. </li>
+					<p>For detailed rules and regulations, visit WCA Regulations at 
+
+<a href="https://www.worldcubeassociation.org/">www.worldcubeassociation.org </a></p>
+					</ul>
+					</div>
+					<div class="inst">
+					<h2>PRIZES WORTH</H2>
+						<p>Prizes worth 18K</p>
+					<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 9:30 AM</P>
+						<p>For the complete event schedule, <a href="tcoschedule.pdf">Click here</a>.</p>
+					<h2>CONTACT</h2>
+					<p>Adarsh KV : 9446334712</p>
+					<p>Visakh K Vijayan : 8281182760</p>
+					<p>Siva Prabhakar : 9496564459</p>
+					<h2>EVENT MAIL</H2>
+						<P>tathvaopen@tathva.org</P>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			
+			<button id="close" class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+
+	<nav id="cd-vertical-nav">
+		<ul id="navtor">
+			<li>
+				<a href="#content-6" data-number="6">
+					<span class="cd-dot"></span>
+					<span class="cd-label">L&T Day</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-1" data-number="1">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Informals Treasure Hunt</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-2" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Inquisito Virtuoso</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-3" data-number="3">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Interface</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-4" data-number="4">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Log IQ</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-5" data-number="5">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Tathva Cube Open</span>
+				</a>
+			</li>
+			
+
+		</ul>
+	</nav>
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript" src="js/mods.js"></script>
+	<script src="bouncer/js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

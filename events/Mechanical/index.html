@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1024" />
+	<title>Category Name</title>
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/mods.css">
+	<script src="js/modernizr.custom.js"></script>
+	<!-- Bouncy Navigation Files -->
+	<link rel="stylesheet" href="bouncer/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="bouncer/css/style.css"> <!-- Resource style -->
+	<script src="bouncer/js/modernizr.js"></script> <!-- Modernizr -->
+	<!-- Navigator files -->
+	<link rel="stylesheet" href="navigator/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="navigator/css/style.css"> <!-- Resource style -->
+	<script src="navigator/js/modernizr.js"></script> <!-- Modernizr -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="../general.css" rel="stylesheet" type="text/css">
+	<script src="../general.js"></script>
+	
+</head>
+<body>
+
+	<a href="http://www.tathva.org/"><img id="tathvapic" src="../general_images/home.png" alt="Tathva pic"></a>
+
+	<a id="permodal" class="openthemodal permreg" >Get Tathva ID</a>
+
+	<style>
+    	.openthemodal{
+			padding:10px !important;
+			cursor:pointer;	
+			width:120px;
+		}
+    </style>
+
+	<div id="openModal" class="modalDialog">
+	    
+	    <div><a href="" title="Close1" class="close1">X</a>
+
+	    <iframe id="frames" src="" frameborder="0" scrolling="no"></iframe>
+	        
+	    </div>
+	</div>
+
+	<!-- Main container -->
+	<div class="container" style="opacity : 1">
+
+		<section class="cd-section">
+			<a class="cd-bouncy-nav-trigger" href="#0">Browse categories</a>
+		</section> <!-- .cd-section -->
+
+		<div class="cd-bouncy-nav-modal">
+			<style>
+            	.cd-bouncy-nav a{
+						opacity:0;
+				}
+				
+				.cd-bouncy-nav a::before{
+					display:none;
+					
+				}
+				
+            	.cd-bouncy-nav li:hover a{
+						opacity:1;
+				}
+				.cd-bouncy-nav li{
+					height: 160px;
+    				overflow: hidden;
+				}
+            </style>
+            
+            <nav >
+				<ul class="cd-bouncy-nav">
+					<li style="background:url(ic1/ec.png);background-size:contain;"><a href="../Electronics/index.html" style="width:100%;height:100%">Electronics</a></li>
+					<li style="background:url(ic1/elec.png);background-size:contain;"><a href="../Electrical/index.html"  style="width:100%;height:100%">Electrical</a></li>
+					<li style="background:url(ic1/robotics.png);background-size:contain;"><a href="../Robotics/index.html"  style="width:100%;height:100%">Robotics</a></li>
+					<li style="background:url(ic1/blueprint.png);background-size:contain;"><a href="../Blueprint/index.html"  style="width:100%;height:100%">Blueprint<br>paper<br>presentation</a></li>
+					<li style="background:url(ic1/adizya.png);background-size:contain;"><a href="../Adizya/index.html"  style="width:100%;height:100%">Adizya</a></li>
+					<li style="background:url(ic1/blizk.png);background-size:contain;"><a href="../Blitzkrieg/index.html"  style="width:100%;height:100%">Blitzkrieg</a></li>
+					<li style="background:url(ic1/phy.png);background-size:contain;"><a href="../Physics/index.html"  style="width:100%;height:100%">Physics</a></li>
+					<li style="background:url(ic1/online.png);background-size:contain;"><a href="../Online Events/index.html"  style="width:100%;height:100%">Online Events</a></li>
+					<li style="background:url(ic1/quiz.png);background-size:contain;"><a href="../Quiz/index.html"  style="width:100%;height:100%">Quizzing</a></li>
+					<li style="background:url(ic1/mech.png);background-size:contain;"><a href="../Mechanical/index.html"  style="width:100%;height:100%">Mechanical</a></li>
+					<li style="background:url(ic1/civil.png);background-size:contain;"><a href="../Civil/index.html"  style="width:100%;height:100%">Civil</a></li>
+					<li style="background:url(ic1/general.png);background-size:contain;"><a href="../General/index.html"  style="width:100%;height:100%">General</a></li>
+					<li style="background:url(ic1/CS.png);background-size:contain;"><a href="../Computer_Science/index.html"  style="width:100%;height:100%">Computer Science</a></li>					
+					<li style="background:url(ic1/youngengg.png);background-size:contain;"><a href="../Young_Engineer/index.html"  style="width:100%;height:100%">Young Engineer</a></li>
+					<li style="background:url(ic1/manag.png);background-size:contain;"><a href="../Bizspark/index.html"  style="width:100%;height:100%">Bizspark</a></li>
+					<li style="background:url(ic1/workshop.png);background-size:contain;"><a href="../Workshops/index.html"  style="width:100%;height:100%">Workshops</a></li>
+					<li style="background:url(ic1/chemical.png);background-size:contain;"><a href="../Chemical/index.html"  style="width:100%;height:100%">Chemical</a></li>
+					
+				</ul>
+			</nav>
+			
+			<a href="#0" class="cd-close">Close modal</a>
+
+		</div>
+		
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/mech.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>MECHANICAL </span> </h2>
+				<p> </p>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/mech.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>MECHANICAL </span> </h2>
+				<p> </p>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/mech.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>MECHANICAL </span> </h2>
+				<p></p>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/mech.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>MECHANICAL</span> </h2>
+				<p> </p>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/mech.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>MECHANICAL </span> </h2>
+				<p>  </p>
+			</div>
+			<div class="slide" data-content="content-6">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/mech.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>MECHANICAL </span> </h2>
+				<p></p>
+			</div>
+			<div class="slide" data-content="content-7">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/mech.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>MECHANICAL</span> </h2>
+				<p></p>
+			</div>
+			
+			<nav class="slider__nav">
+				<button class="button button--nav-prev" id="moveleft"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom" id="magnify"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next" id="moveright"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1" href="ME001">
+				<div class="content__item-inner">
+					<h2>ALBATROSS</h2>
+					<h3></h3>
+					<p>Leave the cockpits and sense the flutter with your hands. Direct your conscience through the gushing wind while you stand against it. This Tathva, at Albatross, rush through the sky and reveal the pilot within you. One plan, one plane, and one flight will test whether sky is the limit. So shed the fear and lighten yourself to increase your lift, because now you have the power to reach the zenith.</p>
+					<div class="inst">
+						<h2>TASK</h2>
+						<p>Design and fabricate a light weight, electric motor powered, remote controlled aircraft, which can manoeuvre properly around the arena within the least possible time and can be landed smoothly on the ground.
+						</p>
+						<h2>AIRCRAFT SPECIFICATION</h2>
+						<ul>
+							<li>Participating teams are allowed to choose any aircraft design, stable or aerobatic, according to their flight convenience. </li>
+							<li>Lightweight materials like sunpack (coroplast), depron foam or balsa wood is advisable for the construction. However they are free to use material of their own choice.</li>
+							<li>The aircraft has to be launched by hand and no other mechanisms.</li>
+							<li>The use of IC Engines is prohibited. Aircraft should be powered by electrical motors only.</li>
+							<li>The total weight of the aircraft should not exceed 700gms.</li>
+							<li>The dimensions of the aircraft should be such that it fits into a 900x900x900mm box.</li>
+							<li>Though readymade motors, radio control and propellers are allowed, the use of Ready-to-fly kits is prohibited.</li>
+							<li>The use of 2.4GHz radio is required.</li>
+							<li>Use of metal propellers is strictly prohibited.</li>
+						</ul>
+						<h2>GENERAL INSTRUCTIONS</h2>
+						<ul>
+							<li>The event comprises two rounds.</li>
+							<li>Each team can have 4-6 participants.</li>
+							<li>The aircraft will be firstly inspected i.e. its weight, dimensions & electronic configurations will be checked and verified with those specified above.
+Failing to meet the prescribed requirements would result in direct disqualification from the event.
+ </li>
+							<li>Each team will be given two chances for each round and the best performance among them would be considered for the calculation of points.</li>
+						    <li>In the case of any damage to their aircraft during a flight run, the participants are allowed to make adjustments and modifications prior to their next chance, ensuring that not more than 50% of the original aircraft is changed. </li>
+						    <li>In the case of any damage to their aircraft during a flight run, the participants are allowed to make adjustments and modifications prior to their next chance, ensuring that not more than 50% of the original aircraft is changed. </li>
+						    <li>The team will be disqualified if the aircraft enters the no fly zone i.e. if it reaches outside the arena, in both the flight runs.</li>
+						    <p><br><br>Round 1
+<br><br>1. The teams are expected to hand launch their aircraft, from a height of approximately 27ft, and safely land it in the landing zone (described by an arena of three concentric circles). 
+<br>2. Landing will be considered where the aircraft first touches the ground.
+<br>3. The time of flight will not be considered for the calculation of points. But if it exceeds 45s, no points will be awarded.
+<br>4. If the team fails to land their aircraft inside the arena provided, in both the chances, they will be disqualified.
+<br>5. Only one team member is allowed to pilot the aircraft during this round.
+<br>6. A team member, other than the pilot, is supposed to launch the aircraft.
+
+<br><br>Round 2
+<br><br>1. The team is expected to launch the aircraft from the takeoff/landing zone at the ground level, reach the farthest possible check post, take a U turn and land it safely in the same region of launch, within 90s.
+<br>2. Landing will be considered where the aircraft first touches the ground.
+<br>3. Flight time between the launch and landing of the aircraft will be considered for the 
+calculation of points in this round. Least time of flight will be the most favourable.
+<br>4. The team is allowed to change its pilot, if required, but not in the middle of any flight. 
+<br>5. A team member, other than the pilot, is supposed to launch the aircraft.
+
+<br>All dimensions in metre</p>
+						    <h2>JUDGING CRITERIA(Round 1)</h2>
+							<p><br>1. 100 points for landing in the black zone
+<br>2. 75 points for landing in the red zone
+<br>3. 50 points for landing in the green zone
+<br>4. No points will be awarded for landing in any other region.
+</p>
+							<h2>JUDGING CRITERIA(Round 2)</h2>
+							<p><br>1. 100 points for reaching the black pole belt.
+<br>2. 75 points for reaching the red pole belt.
+<br>3. 50 points for reaching the blue pole belt.
+<br>4. 100 points for landing in the black zone.
+<br>5. 75 points for landing in the red zone.
+<br>6. 50 points for landing in the blue zone.
+<br>7. No points will be awarded for landing in any other region.
+<br>8. For taking the time of flight into consideration, the points awarded will be equal to 90s-time. 
+							
+							</p>
+							<p><br>Note: 50 points for manoeuvrability will be awarded in both the rounds, if the pilot has really good control over the aircraft, otherwise no points will be given.
+							</p>
+
+						</ul>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 8000</p>
+						<p>Second prize : 5000</p>
+						<p>Third Prize : 3000</p>
+						<h2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30</p>
+						<p>TIME : 9:30 AM</P>
+						<h2>CONTACT</h2>
+						<ul>
+							<p>TRILOCHAN K : 7736914007</p>
+							<p>ARPIT SINGHAL : 9567034784</p>
+							<p>JEETENDRA GOUR : 9567036483</p>
+						
+						</ul>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+            <div class="content__item" id="content-2" href="ME002">
+				<div class="content__item-inner">
+					<h2>AQUA GT</h2>
+					<h3>Feel the need…..The need for speed</h3>
+					<p>No retreat, no surrender.Achieving greatness is all about how much effort you make throughout the time.Fabricate and race an RC boatthat speeds up through the checkpoints.Keep your spirit strong to go the distance.Awaken your soul and cruise yourself to victory.</p>
+					<div class="inst">
+						<h2>PROBLEM STATEMENT</h2>
+						<p>The participants are required to make an RC boat (wireless or wired), conforming to all rules specified below.Every team will be racing their boat along the same track which can have curves, obstacles or waves to slow you down.The boat scoring the most pointsthrough the course of track completion will win.
+						</p>
+						<h2>TEAM SPECIFICATIONS</h2>
+						
+							<p>•	A team can consist of a minimum of one member and a maximum of five members. 
+<br>•	The participants should produce a valid identity card of their institute. 
+<br>•	Cross college teams are allowed.
+							</p>
+						<h2>GENERAL RULES</h2>
+						<p>•	Teams can use the track for practice as per given slots before the event.Once the event is commenced, teams will not be allowed to practice in the track.
+<br>•	Teams are requested to report to the event site at least 45 minutes prior to commencement of event.
+<br>•	Elevated standing will be provided for wired boats. Participants will not be allowed to move through water. 
+<br>•	Decision of organizers will be final and applicable to all.
+<br>•	Readymade or lego-kit boats are not allowed in the event.
+<br>•	Organizers will not be responsible for any kind of damage happening to the boat in track.
+
+						</p>
+						<h2>TRACK SPECIFICATIONS</h2>
+						<p>•	The race track will be a track with left, right and U turns, S-shaped curves and hurdles. 
+<br>•	Despite organizers' efforts to keep the track quality intact, if the track shakes slightly because of the ripples, participants should be able to control their boat accordingly. 
+<br>•	The exact track will be revealed only on the day of the race. 
+<br>•	A lap of the track is defined to be completed when the boat comes back to the start-finish line. 
+<br>•	Remote control should be capable to cover a range of at least 30m so as to complete the race without failure. 
+<br>•	Track is subject to change.
+
+						</p>
+						<h2>DIMENSIONS AND FABRICATION</h2>
+						<p>•	Maximum length of the boat: 40cm 
+<br>•	Maximum width of the boat: 40cm 
+<br>•	Maximum height of the boat: 40cm 
+<br>•	The boats can be wired or wireless. 
+<br>•	The boat must not be made from Lego parts, or any ready-made assembly kits. 
+<br>•	External remote controllers can be used. 
+<br>•	Propellers or paddles and steering mechanisms should be self-designed and made (Ready-made kits are not allowed)
+
+						</p>
+						<h2>MOTOR SPECIFICATIONS</h2>
+						<p>•	The boat must have an onboard power supply to provide power to any mechanism requiring electric power. 
+<br>•	Use of any energy storage devices such as capacitors (other than batteries) is not allowed. 
+<br>•	Only dc motor should be used. 
+<br>•	The maximum allowable speed of the electric motor is 8200 r.p.m. (SUM of the speeds of all propelling motors should not exceed this speed) 
+<br>•	The electric voltage provided to the motor shaft should not be more than 12V. 
+<br>•	Speed controller may be used so as to control the speed of the dc motor.
+
+						</p>
+						<h2>JUDGING CRITERIA</h2>
+						<p>There will be two rounds
+<br>Round 1: You are required to navigate your boat through the given path in minimum time.There will be various markers which if taken will earn you bonus points.If the vehicle touches any of the edge-walls, a penalty will be added to the timer. Any kind of human intervention will lead to the addition of penalty to the timer and the boat will also be reset to the previous checkpoint.
+<br>Round 2: Here, you will have to sail your boat through the given track gaining the maximum points within the given time
+
+						</p>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 9000</p>
+						<p>Second prize : 5000</p>
+						<p>Third Prize : 2000</p>
+						<h2>SCHEDULE</H2>
+						<H3>ROUND 1</H3>
+						<P>DATE : OCTOBER 30</P>
+						<P>TIME : 12:30 PM</P>
+						<H3>ROUND 2</H3>
+						<P>DATE : OCTOBER 31</p>
+						<TIME : 9:30 AM</P>
+
+						<h2>CONTACT :</h2>
+						<p>K Raghu Ram : 8891023007</p>
+						<p>Athul : 9400542083</p>
+						<p>Adersh M : 8089393990 </p>
+						<h2>EVENT MAIL</H2>
+						<P>aquagt@tathva.org</P>
+						
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<div class="content__item" id="content-3" href="ME003">
+				<div class="content__item-inner">
+					<h2>AQUA STRIKE</h2>
+					<h3>Incredible performance for powerful apps</h3>
+					<p>Water rockets have been a source of entertainment and education for many years. They are usually made with an empty two-litre plastic soda bottle by adding water and pressurizing it with air for launching. This is an event where a team has to demonstrate the performance of their water rocket.</p>
+					<div class="inst">
+						<h2>TEAM SPECIFICATIONS</h2>
+						<p>•	A maximum of three members are allowed per team.
+<br>•	Team members have to produce valid ID card of the institute.
+<br>•	There can be students from different educational institutes in a single team.
+</p>
+						<h2>DESIGN SPECIFICATIONS</h2>
+						<p>•	It must be a single stage water rocket. Multiple stages are not allowed.
+<br>•	The rocket body should be made only with plastic bottles of aerated soft drinks of maximum capacity 2.25L and should be free of any fabrication failures or dents caused by heat exposure.
+<br>•	The water rocket must use only compressed atmospheric air as its source of energy. Pressure compressors (foot pump) shall be provided at the venue. The pressure inside the container (rocket body) before launch should not exceed 60 psi for the first two rounds.
+<br>•	Water to be filled in the rockets will be provided by the organizers. The amount of water to be used is left to the choice of the team.
+<br>•	Each team must have their own launchers. No two/more teams can use a same launcher.
+<br>•	The rocket must be launched from a stationary position using a fixed launcher. Slingshots, trebuchets, catapults, cannons, and all other forms of launcher boost assists are strictly forbidden. In other words, the internal pressure of the rocket must be the only source of energy for the rocket.
+<br><br>The team will be disqualified if
+<br>o	The rocket blasts before launch.
+<br>o	The rocket is found dangerous to launch by the organizers.
+<br>o	Any part breaks off from the rocket during flight.
+
+						</p>
+						<h2>EVENT LAYOUT</h2>
+						<p>There will be 3 rounds. The three rounds will be testing the capability as better missile designers.
+<br>ROUND 1: RANGE TEST<br>
+The missiles are being tested for maximum range. The testing site will be a rectangular ground. Tentative test site is being shown. Each team will be asked to launch their missiles from one of the two launching stations. The missile must land inside the rectangular box(between lines A&B in case of 150+). The missiles are then graded into 50+,60+,...,140+,150+ according to the range they cover. Deviations are not being taken into account for scoring. The top 10 teams will be chosen for the next round. Each team will have 2 chances to try out this test and the best of the 2 will be chosen for score. TOP 10 will be chosen for the next round. Maximum points that can be scored in this round are 90.
+<br>ROUND 2: ACCURACY TEST<br>	
+Here each team will be asked to launch the missiles onto a specific target. There will be 3 targets at different ranges .Teams have to hit on any of the three according to their choice. The targets will be at 50m,70m and 90m all having 3 concentric circles of diameters 6m, 4m and 2m respectively. There will be 2 chances for each team in this round and the points are added up; thereby making the maximum points attainable in this round 60*2=120. The teams will be ranked based on the total of their final scores in Round 1 and Round 2. TOP 3 will be selected for the final round.
+<br>ROUND 3: PRECISION TEST<br>
+In this round a team's precision is evaluated by allowing their rockets to fire at five different circles at different distances with different circle diameters from a fixed single launching point. The targets will be at a distance of 25m, 35m, 50m, 70m, 90m, and the diameter of circles at each target is 2m, 3m, 4m, 5m, 6m respectively. However the teams have to launch the rockets on to the targets in a fixed random order for all the teams who have been qualified for the final round.( For example, the random order of targets can be target 3, target 5, target 2, target 1, target 4). The random order and the point distribution will be announced to the participants by the event managers before the start of final round.
+
+</p>
+						<h2>SPECIAL INSTRUCTIONS</h2>
+						<p>•	All the teams getting selected to final round (Top 3 in round1+round2) are assured cash prize.
+<br>•	Team numbers will be assigned to the teams prior to the event . Team numbers will be written onto the rockets using a permanent marker.
+<br>•	First two rounds will be conducted on 1st day, and the final round will be on the second day.
+<br>•	For the final round teams may/may not bring their ready made rockets. Teams have a night to build their rockets. Few bottles can be provided if asked. Other common items like tapes, adhesives etc are available in the nearby shops.
+<br>•	Team members must clear any doubts related to the final round before its start.
+<br>•	Final round being new may be altered in its structure/cancelled during the course of the event for matching time, safety, space or any other constraints.
+<br>•	In the event of a dispute event managers will be making impartial decisions.All the decisions made collectively by the event managers will be final.
+</p>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 7000</p>
+						<p>Second prize : 5500</p>
+						<p>Third Prize : 3500</p>
+						<h2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30,31</p>
+						<p>TIME : 9:30 AM</P>
+						<h2>CONTACT</h2>
+						<ul>
+							<p>Chaitanya ERK : 7736269340</p>
+							<p>V.V.S Raghunadh Billa : 9567036286</p>
+							<p>Chukka venu madhava : 7736875548</p>
+						</ul>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<div class="content__item" id="content-4" href="ME004">
+				<div class="content__item-inner">
+					<h2>CONTRAPTION</h2>
+					<h3></h3>
+					<p>In an efficient and multi-tasking world, simple machines simply won’t do.Your mission is to combine and complicate the simplest tasks heard of into the most convoluted machinery the imaginative mind can think of to enthral your judges and audience and leave them in awe with the mastery of imagination, innovation, planning and knowledge of the art of machinery and mechanics.
+
+</p>
+					<div class="inst">
+						<h2>PROBLEM STATEMENT</h2>
+						<p>Create a contraption to pop an inflated balloon.
+						</p>
+						<h2>RULES AND REGULATIONS</h2>
+						<p>1. Each team can consist of a maximum of 6 members.
+<br>2. Cross college teams will also be allowed to participate in the event.
+<br>3. The team members should produce a valid identity card of their college
+<br>4. One hour will be given for each team to arrange the contraption. Negative marks for extra time taken
+<br>5. The contraption must complete the challenge within a total time of 10 minutes.
+<br>6. The contraption must be set within a area of 10x10 feet 
+<br>7. The contraption must have a minimum of 6 steps in total. 
+<br>8. The completion of objective task marks the end of the event attempt.  (The popping of the balloon marks the end of the event. No incomplete bonus events will be considered in scoring after this point)
+<br>9. No marks will be awarded if the objective task is not completed.
+<br>10. All Teams should submit an abstract to the event mail id with Subject: Abstract Contraption on or before 20th October 2015.Abstracts must contain Tathva ID No (Obtained after online registration), event ID No, name of participants. 
+	
+<br>The following will be provided at venue:
+<br>• Extension cord
+<br>• Balloons
+<br>• Desks and benches
+
+						</p>
+						<h2>BONUS EVENTS</h2>
+						<p>The participants should choose the bonus events they wish to execute beforehand and they have to acquire materials or tools necessary for accomplishing the same.
+	
+<br>1. Pouring liquid from one vessel to other. (30 points)
+<br>2. Switching on bulb and switch it off in the same cycle. (20+30)(20 if not in same cycle) points}
+<br>3. Spray a deodorant(30 points) 
+<br>4. Hammering a bell mechanically(20 points) 
+<br>5. Light a candle and blowing it out (40 + 10 points) 
+<br>6. Popping the objective balloon in mid air without supports (75 points)
+
+<br>7. Hoisting a tathva flag 10cm high {tathva flag contains tathva 2015 logo and written 'TATHVA 15' below}(50 points)
+<br>8. Cut an apple into 2 equal halves(50 points)
+<br>9. Using dominoes to form an inward spiral (50 points)
+<br>10. Crossing a Vertical circular loop of minimum diameter of 10cm(60 points) 
+
+						</p>
+						<h2>JUDGING CRITERIA</h2>
+						<p>FORMULA:
+
+<br>TOTAL SCORE =15S + 10E – 20I + B – 10R + Q + C
+<br>S = Total number of steps.
+<br>E = Total number of energy conversion. 
+<br>I = Number of interventions.
+<br>B= Bonus points (points for each bonus events are given above).
+<br>R = Number of repeating steps. 
+<br>Q = Abstract clarity(Out of 50 depending on similarity between abstract and 
+contraption)
+<br>C = Points for innovation (out of 50 decided by the judges)
+
+						</p>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 10000</p>
+						<p>Second prize : 6000</p>
+						<p>Third Prize : 4000</p>
+						<h2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30</p>
+						<p>TIME : 9:30 AM</P>
+						<h2>CONTACT</h2>
+						<ul>
+							<p>KUSHAAL NAIR : 7736860091</p>
+							<p>SAJAS AHMED : 8714814887</p>
+							<p>HARIKRISHNAN H R : 9495997365</p>
+						</ul>
+						<h2>EVENT MAIL</H2>
+						<P>contraption@tathva.org</P>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<div class="content__item" id="content-5" href="ME005">
+				<div class="content__item-inner">
+					<h2>HOVERDRIVE</h2>
+					<h3></h3>
+					<p>Ever Wanted to be a Superhero Like BEN…..???
+Ever Dreamed of Flying….??
+……… Drive on Water…
+Wanna go Turboooo…??
+Mix all These in your MASTERPIECE……………………
+ Join us at Tathva'15 to see if you can make through...
+</p>
+					<div class="inst">
+						<h2>PROBLEM STATEMENT</h2>
+						<p>Design a radio controlled hovercraft that can navigate through any terrain including water, sand and gravel and race it through specified tracks in the best possible manner scoring maximum points. The vehicle should follow the required machine specifications and shall be tested for its swiftness, endurance and maneuverability.</p>
+						</p>
+						<h2>EVENT FORMAT</h2>
+						<p>The event comprises of two rounds:
+
+<br>ROUND 1:
+<br>In this round ,the participants should drive their ACV on the given track .
+Maximum time limit for this round is 5 minutes.
+This is an eliminative round. Not more than one attempt will be allowed.
+Best ten teams shall qualify for the next round.
+<br>ROUND 2:
+<br>In round 2,participants have to navigate their ACV through the specified arena supplied with checkpoints at various positions. A maximum of two attempts will be permitted. 
+Round 2 arena is shown below. Please note that the arena is subjected to changes based on the level of participation .
+						
+
+						</P>
+						
+						<h2>MACHINE SPECIFICATIONS</h2>
+						<p>•	The maximum dimensions of the model allowed are 70cm x 60cm x 50cm (lxbxh)
+<br>•	There is no restriction on the weight of the craft.
+<br>•	Participants should bring their own radio controller of 2.4 GHz.
+<br>•	Readymade kits are strictly prohibited.
+<br>•	The use of IC Engines is strictly prohibited. 
+<br>•	Only DC motors are allowed.
+<br>•	Any type of motors or servos can be used.
+<br>•	Ready-made motors, RC units, ESC's and propellers are allowed.
+
+						</p>
+						<h2>GENERAL RULES</h2>
+						<p>•	No. of participants per team: 2-6
+<br>•	Only one participant will be allowed to run the hovercraft during a team's attempt.
+<br>•	Maximum of two participants will be allowed near the track.
+Intervention can be allowed but points will be deducted accordingly. 
+<br>•	The arena design is subjected to changes depending on the level of participation.
+<br>•	Event managers’ decision will be final in any circumstance.
+<br>•	The time measured by event managers will be final and shall be used for scoring.
+<br>•	Usage of remote control during other participants' run is strictly prohibited .
+<br>•	The participants should mail the photographs of their hovercraft with transmitter. 
+<br>•	It is the participants’ responsibility to have their hovercrafts waterproofed, especially the battery to prevent damage to arena.
+<br>•	The event managers can disqualify a team if it creates any damage to the arena. 
+
+•	The judging criteria shall be announced on the day of the event. But participants may note that time of completion of the track shall be given more weightage.
+•	Necessary spares should be arranged by the participating teams themselves.
+•	Use of IC Engines is prohibited.
+•	Contact the event managers (or even send text messages) to clarify any doubt regarding the event.
+</P>
+					<h2>PRIZES WORTH</H2>
+						<P>First prize : 20000</p>
+						<p>Second prize : 10000</p>
+						<p>Third Prize : 5000</p>
+					<h2>SCHEDULE</H2>
+					<H3>ROUND 1</H3>
+					<P>DATE : OCTOBER 30</P>
+					<P>TIME : 9:30 AM</P>
+					<H3>ROUND 2</H3>
+					<P>DATE : OCTOBER 31</P>
+					<P>TIME 9:30 AM</P>	
+					<h2>CONTACT</H2>
+					<P>Durga Prasad : 9567896345</p>
+					<p>Jafar Sadiq Muqtar : 8589806718</p>
+					<p>K V Prasanth : 7736780735</P>
+					<h2>EVENT MAIL</H2>
+						<P>hoverdrive@tathva.org</P>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<div class="content__item" id="content-6" href="ME006">
+				<div class="content__item-inner">
+					<h2>MACHNASCENCE</h2>
+					<h3></h3>
+					<p>Machnascene sets the stage for you to flaunt your skills at deciphering and putting together the jig-saw puzzle in front of you- with no missing pieces.</p>
+					<div class="inst">
+						<h2>PROBLEM STATEMENT</h2>
+						<P>The participants are required to assemble the given machine parts so as to bring out the required machine component using the given  machine assembly drawing.
+						</P>
+						<h2>RULES AND REGULATIONS</h2>
+						<p><br>1. The event consists of two rounds.
+<br>2. The preliminary round will be a written test of 20 minutes duration where the participants general concept on machines and their principles will be put to test.
+<br>3. The qualified teams shall proceed for machine assembly test which shall also include a viva voce test on basic concepts.
+<br>4. The mechanism to be assembled will be informed on the spot.
+<br>5. The qualified participants will be provided with the all the necessary components and drawing.
+<br>6. Use of any machine part other than those provided will lead to disqualification.
+<br>7.Minimum no. of participants in a team: 1 
+<br>Maximum no. of participants in a team: 3
+
+
+						</p>
+						<h2>EVALUATION CRITERIA</h2>
+						<p><br>The preliminary round will serve only as a qualifier. The marks obtained in it will not be carried over to the final evaluation.
+<br>Final marks shall be based on the following formula:
+<br>S = (N - T) + 20n - 10y + 5x +5K
+<br>S: Total score 
+<br>N: Total time given 
+<br>T: Total time taken 
+<br>n: Number of components correctly assembled
+<br>y: Number of wrong comp assembled 
+<br>x: Viva questions correctly answered
+<br>K:Function of the machine to be assembled
+
+						</p>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 6500</p>
+						<p>Second prize : 3500</p>
+						<p>Third Prize : 2000</p>
+						<h2>SCHEDULE</H2>
+						<h3>ROUND 1</H3>
+						<P>DATE : OCTOBER 30</p>
+						<p>TIME : 1:00 PM</P>
+						<H3>ROUND 2</H3>
+						<P>DATE : OCTOBER 30</P>
+						<P>TIME : 2:00 PM</P>
+						<h2>CONTACTS</h2>
+						<p>Dilip Datta : 7736296743</p>
+						<p>Gonela Krishna Vamsy : 7736737966</p>
+						<P>Anurag Patel : 9406976731</p>
+						<h2>EVENT MAIL</H2>
+						<P>machnascence@tathva.org</P>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<div class="content__item" id="content-7" href="ME007">
+				<div class="content__item-inner">
+					<h2>MINDKRAFT</h2>
+					<h3></h3>
+					<p>Where speed meets precision
+Mindkraft is an event for those who are passionate in mechanics. It gives you an 
+opportunity to design and make where only limit is imagination. And some mind bending 
+questions too.
+</p>
+					<div class="inst">
+						<h2>EVENT RULES</h2>
+						<P> This is a team event comprising of a maximum of 2 members.
+
+<br> However, a participant might participate alone.
+
+<br> There will be two rounds, one preliminary and one final round.
+
+
+<br> The tools and materials will be provided by the organizers.
+
+<br> Using any material other than those provided by the organizers will lead to 
+
+disqualification.
+
+						</P>
+						
+						<h2>ROUND DETAILS</h2>
+						<P> The first round is the screening round to select the finalists. This round will consist
+
+of 15-20 questions from basic mechanics and general aptitude.
+
+ In the second round, the participants will be given a task related to designing and 
+
+fabrication.
+
+						</P>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 3000</p>
+						<p>Second prize : 2000</p>
+						<p>Third Prize : 1000</p>
+						<h2>SCHEDULE</H2>
+						<H3>ROUND 1</H3>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 9:30 AM</P>
+						<H3>ROUND 2</H3>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 2:00 PM</P>
+						<h2>CONTACT</h2>
+						<P>Pushpendra Singh Thakur : 7736298020</p>
+						<P>Aniket Tayde : 8714950101</p>
+						<P>Sudhabindu Das : 8137900744</p>
+					        <h2>EVENT MAIL</H2>
+						<P>mindkraft@tathva.org</P>
+						
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<button id="close" class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+
+	<nav id="cd-vertical-nav">
+		<ul id="navtor">
+			<li>
+				<a href="#content-1" data-number="1">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Albatross</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-2" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Aqua GT</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-3" data-number="3">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Aqua Strike</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-4" data-number="4">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Contraption</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-5" data-number="5">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Hoverdrive</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-6" data-number="6">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Machnascence</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-7" data-number="7">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Mindkraft</span>
+				</a>
+			</li>
+			
+
+		</ul>
+	</nav>
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript" src="js/mods.js"></script>
+	<script src="bouncer/js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

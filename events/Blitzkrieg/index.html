@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1024" />
+	<title>Category Name</title>
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/mods.css">
+	<script src="js/modernizr.custom.js"></script>
+	<!-- Bouncy Navigation Files -->
+	<link rel="stylesheet" href="bouncer/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="bouncer/css/style.css"> <!-- Resource style -->
+	<script src="bouncer/js/modernizr.js"></script> <!-- Modernizr -->
+	<!-- Navigator files -->
+	<link rel="stylesheet" href="navigator/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="navigator/css/style.css"> <!-- Resource style -->
+	<script src="navigator/js/modernizr.js"></script> <!-- Modernizr -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="../general.css" rel="stylesheet" type="text/css">
+	<script src="../general.js"></script>
+	
+</head>
+<body>
+
+	<a href="http://www.tathva.org/"><img id="tathvapic" src="../general_images/home.png" alt="Tathva pic"></a>
+
+	<a id="permodal" class="openthemodal permreg" >Get Tathva ID</a>
+
+	<style>
+    	.openthemodal{
+			padding:10px !important;
+			cursor:pointer;	
+			width:120px;
+		}
+    </style>
+
+	<div id="openModal" class="modalDialog">
+	    
+		<div><a href="" title="Close1" class="close1">X</a>
+
+	    <iframe id="frames" src="" frameborder="0" scrolling="no"></iframe>
+	        
+	    </div>
+	</div>
+
+	<!-- Main container -->
+	<div class="container" style="opacity : 1">
+
+		<section class="cd-section">
+			<a class="cd-bouncy-nav-trigger" href="#0">Browse categories</a>
+		</section> <!-- .cd-section -->
+
+		<div class="cd-bouncy-nav-modal">
+			<style>
+            	.cd-bouncy-nav a{
+						opacity:0;
+				}
+				
+				.cd-bouncy-nav a::before{
+					display:none;
+					
+				}
+				
+            	.cd-bouncy-nav li:hover a{
+						opacity:1;
+				}
+				.cd-bouncy-nav li{
+					height: 160px;
+    				overflow: hidden;
+				}
+            </style>
+            
+            <nav >
+				<ul class="cd-bouncy-nav">
+					<li style="background:url(ic1/ec.png);background-size:contain;"><a href="../Electronics/index.html" style="width:100%;height:100%">Electronics</a></li>
+					<li style="background:url(ic1/elec.png);background-size:contain;"><a href="../Electrical/index.html"  style="width:100%;height:100%">Electrical</a></li>
+					<li style="background:url(ic1/robotics.png);background-size:contain;"><a href="../Robotics/index.html"  style="width:100%;height:100%">Robotics</a></li>
+					<li style="background:url(ic1/blueprint.png);background-size:contain;"><a href="../Blueprint/index.html"  style="width:100%;height:100%">Blueprint<br>paper<br>presentation</a></li>
+					<li style="background:url(ic1/adizya.png);background-size:contain;"><a href="../Adizya/index.html"  style="width:100%;height:100%">Adizya</a></li>
+					<li style="background:url(ic1/blizk.png);background-size:contain;"><a href="../Blitzkrieg/index.html"  style="width:100%;height:100%">Blitzkrieg</a></li>
+					<li style="background:url(ic1/phy.png);background-size:contain;"><a href="../Physics/index.html"  style="width:100%;height:100%">Physics</a></li>
+					<li style="background:url(ic1/online.png);background-size:contain;"><a href="../Online Events/index.html"  style="width:100%;height:100%">Online Events</a></li>
+					<li style="background:url(ic1/quiz.png);background-size:contain;"><a href="../Quiz/index.html"  style="width:100%;height:100%">Quizzing</a></li>
+					<li style="background:url(ic1/mech.png);background-size:contain;"><a href="../Mechanical/index.html"  style="width:100%;height:100%">Mechanical</a></li>
+					<li style="background:url(ic1/civil.png);background-size:contain;"><a href="../Civil/index.html"  style="width:100%;height:100%">Civil</a></li>
+					<li style="background:url(ic1/general.png);background-size:contain;"><a href="../General/index.html"  style="width:100%;height:100%">General</a></li>
+					<li style="background:url(ic1/CS.png);background-size:contain;"><a href="../Computer_Science/index.html"  style="width:100%;height:100%">Computer Science</a></li>					
+					<li style="background:url(ic1/youngengg.png);background-size:contain;"><a href="../Young_Engineer/index.html"  style="width:100%;height:100%">Young Engineer</a></li>
+					<li style="background:url(ic1/manag.png);background-size:contain;"><a href="../Bizspark/index.html"  style="width:100%;height:100%">Bizspark</a></li>
+					<li style="background:url(ic1/workshop.png);background-size:contain;"><a href="../Workshops/index.html"  style="width:100%;height:100%">Workshops</a></li>
+					<li style="background:url(ic1/chemical.png);background-size:contain;"><a href="../Chemical/index.html"  style="width:100%;height:100%">Chemical</a></li>
+					
+				</ul>
+			</nav>
+			
+			<a href="#0" class="cd-close">Close modal</a>
+
+		</div>
+		
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/blizk.png"/>
+							<div class="zoomer__area zoomer__area--size-2">
+								All participants are requested to get their own gaming accessories like mouses, keyboards, controllers, etc requested for their respective games.
+							</div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>BLITZKRIEG </span> </h2>
+				
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/blizk.png"/>
+							<div class="zoomer__area zoomer__area--size-2">
+								All participants are requested to get their own gaming accessories like mouses, keyboards, controllers, etc requested for their respective games.
+							</div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> BLITZKRIEG </span> </h2>
+				
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/blizk.png"/>
+							<div class="zoomer__area zoomer__area--size-2">
+								All participants are requested to get their own gaming accessories like mouses, keyboards, controllers, etc requested for their respective games.
+							</div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> BLITZKRIEG </span> </h2>
+				
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/blizk.png"/>
+							<div class="zoomer__area zoomer__area--size-2">
+								All participants are requested to get their own gaming accessories like mouses, keyboards, controllers, etc requested for their respective games.
+							</div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> BLITZKRIEG </span> </h2>
+				
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/blizk.png"/>
+							<div class="zoomer__area zoomer__area--size-2">
+								All participants are requested to get their own gaming accessories like mouses, keyboards, controllers, etc requested for their respective games.
+							</div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> BLITZKRIEG </span> </h2>
+				
+			</div>
+			
+			<nav class="slider__nav">
+				<button class="button button--nav-prev" id="moveleft"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom" id="magnify"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next" id="moveright"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1" href="BZ001">
+				<div class="content__item-inner">
+					<h2>AOE 2: THE CONQUERORS</h2>
+					
+					<div class="inst">
+						<h2><br> EVENT RULES </h2>
+						<p>1.There are four formats of this game:</p>
+						<p><br>1 v 1 rush<br>I. Location : Arabia<br>II. Map size : small(3 player)<br><br>3 v 3 rush<br>I. Location Arabia<br>II. Map size : Large(8 player)<br><br>1v 1 no rush
+						<br>I. Location : Black forest<br>II. Map size : Small (3 player)<br>III. Truce time : 50 mins(Game time)<br><br>3 v 3 no rush<br>
+						I. Location : black forest<br>II. Map size : Large(8 player)<br>III. Truce time : 50 mins(Game time)<br><br>
+						2.  General rules:<br><br>Resources : standard<br>Game speed : fast<br>Victory type: conquest<br>Allow cheats : no	<br>Map style : standard
+						<br>Population limit : 200<br>Reveal map : Normal<br>Starting age:  standard<br>All Techs : disabled<br>Game type : random<br>Civilization : player's choice</p>
+						<p><br>3. Explicit rules: <br><br>Pausing the game without prior notice will lead to disqualification.<br>Decision of the event manager will be final.
+						<br>Further clarifications will be done before the tournament starts<br><br></p>
+						<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30,31 & NOVEMBER 1</P>
+						<P>VENUE : CENTRAL COMPUTER CENTRE</p>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 9000</p>
+						<p>Second prize : 4000</p>
+						<p>Third Prize : 2000</p>
+						<h2>CONTACT</h2>
+						<p>Ganesh Srikantan +91-8113936859<br><br></p>
+						<h2>EVENT MAIL</H2>
+						<P>gaming@tathva.org</P>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+            <div class="content__item" id="content-2" href="BZ002">
+				<div class="content__item-inner">
+					<h2>COUNTER STRIKE 1.6</h2>
+					<div class="inst">
+						<h2><br>EVENT RULES</h2>
+						<p>Maximum number of players in a team:5<br>Maps : de_dust2, de_train, de_aztec, de_inferno, de_nuke
+						<br>Only default skins are allowed.<br>Time per round: 2.5 mins
+						<br>Freeze time 15 sec<br>Buy time 1.5 minutes<br>Initial buy amount $800.
+						<br>Friendly fire : ON<br>Disable kill-cam<br>Number of rounds: 15 each(as terrorists and counter - terrorists)
+						<br>First team to win 16 rounds win the game<br>The tournament will be of knockout type.
+						<br>Malicious scripts and cheats are not allowed and if players(s) are found using ill be immediately disqualified.
+						<br>Foul language and behavior will not be entertained.<br>Event manager's decision will be final.
+						<br><br>Further rules and game procedures will be informed before the tournament begins.<br>
+						<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30,31 & NOVEMBER 1</P>
+						<P>VENUE : CENTRAL COMPUTER CENTRE</p>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 10000</p>
+						<p>Second prize : 5000</p>
+						<h2> <br>CONTACT</h2>
+						<p>Darwin : +91-8289873158<br> Abhinav S Krishna : +91-9445811242<br>Vamshi Madhav : 7736864907<br></p>
+						<h2>EVENT MAIL</H2>
+						<P>gaming@tathva.org</P>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<div class="content__item" id="content-3" href="BZ003">
+				<div class="content__item-inner">
+					<h2>FIFA 14</h2>
+					<div class="inst">
+						<h2>EVENT RULES</h2>
+						<p>All matches upto semifinal will be of 5 min half length, while Semifinal and Final will be of 8 min half length
+	<br>Teams can be decided by the players
+	<br>Limited time will be given for team management
+	<br>Game speed will be fast
+	<br>The weather conditions will be clear. The game will not be played in rainy or snowy conditions.
+	<br>To make substitutions, or any other changes, the game can only be paused          
+            When the ball is out of play                                  
+	<br>The referee will be random.
+<br>Stadium will be Neutral.
+<br>In case of a tie in regulation time, the game will go into extra time before being decided on penalties
+<br><br>Other rules will be explained in detail when the tournament starts</p>
+<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30,31 & NOVEMBER 1</P>
+						<P>VENUE : CENTRAL COMPUTER CENTRE</p>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 5000</p>
+						<p>Second prize : 2000</p>
+						<h2><br>CONTACT</h2>
+						<ul>
+							<p>AZHAR   +91-8137905656</p>
+							<p>BHADRI  +91-9037489717</p>
+						</ul>
+						<h2>EVENT MAIL</H2>
+						<P>gaming@tathva.org</P>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<div class="content__item" id="content-4" href="BZ004">
+				<div class="content__item-inner">
+					<h2>NFS MW</h2>
+					<div class="inst">
+						<h2> <br>EVENT RULES</h2>
+						<h3>QUALIFICATION ROUND</h3>
+						<p>1. All Tournament participants will play 3 laps and the qualifier for further rounds will be decided by best time basis! (TOP 16).
+<br>2. Players can choose their cars, customize them and modify them.
+<br>3. Race course: Heritage and Omega (#16).
+<br>4. At the end of each match, players must maintain the final screens and receive confirmation from a referee.
+<br>5. Any participant failing to complete the race will be disqualified.<br></p>
+						<h3>COMMON RULES FOR COMPETITIVE ROUNDS, SEMI-FINALS AND FINALS</h3>
+						<p>1. Game Type: Circuit
+<br>2. No. of Laps: 3
+<br>3. Courses: Courses will be given at random and will be given on the spot. ( Players will be informed before the tournament of any such modifications)
+<br>4. Participants are not allowed to use their own profiles, only Immolation provided save files can be used for car setting.
+<br>5. Players will be given 2 minutes to setup the car and its performance before the game.
+					</p>
+					<h3>Competitive Rounds:
+<br>Quarter Finals & Semi finals:</h3>
+					<p>1. There will be two levels: level 1 (all 16 qualifiers), and level 2 (top 8 from level 1).
+<br>2. Courses: Heritage Heights, Little Italy, East Park, Camden & Route 55, Hwy 99 & Projects.
+<br>3. Competition: All qualifying participants will compete in two "Circuits" and one “Sprint” mode in groups of 4 on LAN. The courses will be selected out the above mentioned.
+<br>4. One race out of the three will be played in NO NOS mode (Nos use will not be allowed).
+<br>5. Points will be awarded as follows and top two players from each group will qualify for the next round.<br></p>
+<table style="width:20%">
+  <tr>
+    <td>POINTS</td>
+    <td>POSITION</td> 
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>1</td> 
+  </tr>
+    <tr>
+    <td>3</td>
+    <td>2</td> 
+  </tr>
+    <tr>
+    <td>1</td>
+    <td>3</td> 
+  </tr>
+    <tr>
+    <td>0</td>
+    <td>4</td> 
+  </tr>
+</table>
+				<h2>FINALS</h2>
+
+<p>1. Courses: 
+<br>(Circuits): Switchback, Ironhorse, Bay Bridge, Oil refinery.
+<br>(Sprints): World Loop, Seagate & Camden, Diamond Valley, Clubhouse & Lennox.
+<br>2. Competition: All qualifying participants will compete in two "Circuits" and one “Sprint” mode in groups of 4 on LAN. The courses will be selected out the above mentioned.
+<br>3. One race out of the three will be played in NO NOS mode (Nos use will not be allowed). The course will be decided by the admin.
+<br>4. Points will be awarded as follows and top two players from each group will qualify for the next round.</p>
+<table style="width:20%">
+  <tr>
+    <td>POINTS</td>
+    <td>POSITION</td> 
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>1</td> 
+  </tr>
+    <tr>
+    <td>3</td>
+    <td>2</td> 
+  </tr>
+    <tr>
+    <td>1</td>
+    <td>3</td> 
+  </tr>
+    <tr>
+    <td>0</td>
+    <td>4</td> 
+  </tr>
+</table>
+<h3>OTHER SPECIFICATIONS</h3>
+<p>1. Race Mode Options:
+  <br>  a. Track Direction : Forward/Backward
+  <br>  b. LAPS : 3
+   <br> c. N20 : On/Off
+   <br> d. Collision Detection : Off
+   <br> e. Performance Matching : On
+<br>2. Use of any cheat program is not allowed. Use of Carrera GT and BMW GTR is not allowed. Use of Junkman upgrades is not allowed. Use of any settings exceeding standard and permitted settings is not allowed.
+<br>3. If the match is disrupted due to unnecessary chatting, the player may be given a warning or lose by default at the referee's sole discretion. Two warnings constitute being disqualified from the tournament.
+<br>4. Any disconnection of the connection between matches players due to System, Network, PC, and/or Power problems/issues results into a restart of match. If any player does not agree to a match restart, that player will lose by default.
+<br>5. Intentional disconnection will not be tolerated. Upon judgment by the referee, any offending player will be charged with a loss by forfeit
+</p>
+<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30,31 & NOVEMBER 1</P>
+						<P>VENUE : CENTRAL COMPUTER CENTRE</p>
+<h2>PRIZES WORTH</H2>
+<P>First prize : 5000</p>
+<p>Second prize : 2000</p>
+<h2>CONTACT</h2>
+<p>B. SATHISH NAYAK +91-9497372470</p>
+<p>Vamshi Madhav : 7736864907</p>
+<h2>EVENT MAIL</H2>
+						<P>gaming@tathva.org</P>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<div class="content__item" id="content-5" href="BZ005" style="width : 100%">
+				<div class="content__item-inner">
+					<h2>DOTA 2</h2>
+					<h2 style="font-size : 20px; margin-top : 15px">For details, <a href="DOTA 2.docx"> click here </a></h2>
+					<div class="inst" style="margin-bottom : 20px">
+					<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30,31 & NOVEMBER 1</P>
+						<P>VENUE : CENTRAL COMPUTER CENTRE</p>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 10000</p>
+						<p>Second prize : 5000</p>
+						<h2>CONTACT</h2>
+						<p>Pronith : 8129992087</p>
+						<h2>EVENT MAIL</H2>
+						<P>gaming@tathva.org</P>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+					</div>
+				</div>
+			
+			
+			<button id="close" class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+
+	<nav id="cd-vertical-nav">
+		<ul id="navtor">
+			<li>
+				<a href="#content-1" data-number="1">
+					<span class="cd-dot"></span>
+					<span class="cd-label">AOE 2</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-2" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Counter Strike1.6</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-3" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">FIFA 14</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-4" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">NFS MW</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-5" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">DOTA 2</span>
+				</a>
+			</li>
+
+
+		</ul>
+	</nav>
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript" src="js/mods.js"></script>
+	<script src="bouncer/js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

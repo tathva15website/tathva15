@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1024" />
+	<title>Computer Science</title>
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/mods.css">
+	<script src="js/modernizr.custom.js"></script>
+	<!-- Bouncy Navigation Files -->
+	<link rel="stylesheet" href="bouncer/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="bouncer/css/style.css"> <!-- Resource style -->
+	<script src="bouncer/js/modernizr.js"></script> <!-- Modernizr -->
+	<!-- Navigator files -->
+	<link rel="stylesheet" href="navigator/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="navigator/css/style.css"> <!-- Resource style -->
+	<script src="navigator/js/modernizr.js"></script> <!-- Modernizr -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="../general.css" rel="stylesheet" type="text/css">
+	<script src="../general.js"></script>
+	
+</head>
+<body>
+
+	<a href="http://www.tathva.org/"><img id="tathvapic" src="../general_images/home.png" alt="Tathva pic"></a>
+
+	<a id="permodal" class="openthemodal permreg" >Get Tathva ID</a>
+
+	<style>
+    	.openthemodal{
+			padding:10px !important;
+			cursor:pointer;	
+			width:120px;
+		}
+    </style>
+
+	<div id="openModal" class="modalDialog">
+	    
+	    <div><a href="" title="Close1" class="close1">X</a>
+
+	    <iframe id="frames" src="" frameborder="0" scrolling="no"></iframe>
+	        
+	    </div>
+	</div>
+
+	<!-- Main container -->
+	<div class="container" style="opacity : 1">
+
+		<section class="cd-section">
+			<a class="cd-bouncy-nav-trigger" href="#0">Browse categories</a>
+		</section> <!-- .cd-section -->
+
+<div class="cd-bouncy-nav-modal">
+			<style>
+            	.cd-bouncy-nav a{
+						opacity:0;
+				}
+				
+				.cd-bouncy-nav a::before{
+					display:none;
+					
+				}
+				
+            	.cd-bouncy-nav li:hover a{
+						opacity:1;
+				}
+				.cd-bouncy-nav li{
+					height: 160px;
+    				overflow: hidden;
+				}
+            </style>
+            
+            <nav >
+				<ul class="cd-bouncy-nav">
+					<li style="background:url(ic1/ec.png);background-size:contain;"><a href="../Electronics/index.html" style="width:100%;height:100%">Electronics</a></li>
+					<li style="background:url(ic1/elec.png);background-size:contain;"><a href="../Electrical/index.html"  style="width:100%;height:100%">Electrical</a></li>
+					<li style="background:url(ic1/robotics.png);background-size:contain;"><a href="../Robotics/index.html"  style="width:100%;height:100%">Robotics</a></li>
+					<li style="background:url(ic1/blueprint.png);background-size:contain;"><a href="../Blueprint/index.html"  style="width:100%;height:100%">Blueprint<br>paper<br>presentation</a></li>
+					<li style="background:url(ic1/adizya.png);background-size:contain;"><a href="../Adizya/index.html"  style="width:100%;height:100%">Adizya</a></li>
+					<li style="background:url(ic1/blizk.png);background-size:contain;"><a href="../Blitzkrieg/index.html"  style="width:100%;height:100%">Blitzkrieg</a></li>
+					<li style="background:url(ic1/phy.png);background-size:contain;"><a href="../Physics/index.html"  style="width:100%;height:100%">Physics</a></li>
+					<li style="background:url(ic1/online.png);background-size:contain;"><a href="../Online Events/index.html"  style="width:100%;height:100%">Online Events</a></li>
+					<li style="background:url(ic1/quiz.png);background-size:contain;"><a href="../Quiz/index.html"  style="width:100%;height:100%">Quizzing</a></li>
+					<li style="background:url(ic1/mech.png);background-size:contain;"><a href="../Mechanical/index.html"  style="width:100%;height:100%">Mechanical</a></li>
+					<li style="background:url(ic1/civil.png);background-size:contain;"><a href="../Civil/index.html"  style="width:100%;height:100%">Civil</a></li>
+					<li style="background:url(ic1/general.png);background-size:contain;"><a href="../General/index.html"  style="width:100%;height:100%">General</a></li>
+					<li style="background:url(ic1/CS.png);background-size:contain;"><a href="../Computer_Science/index.html"  style="width:100%;height:100%">Computer Science</a></li>					
+					<li style="background:url(ic1/youngengg.png);background-size:contain;"><a href="../Young_Engineer/index.html"  style="width:100%;height:100%">Young Engineer</a></li>
+					<li style="background:url(ic1/manag.png);background-size:contain;"><a href="../Bizspark/index.html"  style="width:100%;height:100%">Bizspark</a></li>
+					<li style="background:url(ic1/workshop.png);background-size:contain;"><a href="../Workshops/index.html"  style="width:100%;height:100%">Workshops</a></li>
+					<li style="background:url(ic1/chemical.png);background-size:contain;"><a href="../Chemical/index.html"  style="width:100%;height:100%">Chemical</a></li>
+					
+				</ul>
+			</nav>
+			
+			<a href="#0" class="cd-close">Close modal</a>
+
+		</div>
+		
+		<!-- Grid -->
+		<section class="slider">
+			
+			<div class="slide slide--current" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/CS.png" alt="" />
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> COMPUTER SCIENCE </span> </h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/CS.png" alt="" />
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> COMPUTER SCIENCE </span> </h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/CS.png" alt="" />
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> COMPUTER SCIENCE </span> </h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/CS.png" alt="" />
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> COMPUTER SCIENCE </span> </h2>
+			</div>
+			<div class="slide" data-content="content-6">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/CS.png" alt="" />
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> COMPUTER SCIENCE </span> </h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev" id="moveleft"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom" id="magnify"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next" id="moveright"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+            <div class="content__item" id="content-2" href="CS002">
+				<div class="content__item-inner">
+					<h2>DEBUGGER</h2><br>
+					<h3>Writing a piece of code is not a difficult task. But correcting a code written by someone else is a behemoth of a task</h3>
+					<p>Imagine when the code is not properly indented or commented. Experience a challenge like never before! Understand, correct and complete the code in a limited time and take away the prizes! It's as simple as that!</p>
+					<center><img src="images/debugger-poster.jpg" height="450px" width="700px" style="margin : 20px 20px 20px 20px"></center>
+					<div class="inst">
+						<h2>EVENT RULES</h2>
+						<ul style="list-style-type : disc">
+						<li>A team can have minimum 1 or maximum 2 members.</li>
+						<li>Each team will be provided with one system.</li>
+						<li>The contest is <span style="font-weight : 600">Onsite</span>.</li>
+						<li>Any numbers of teams are allowed from one college.</li>
+						<li>Inter-college teams are also allowed. In case of inter-college teams, points will be distributed equally among the two colleges.</li>
+						<li>This event consists of 3 rounds, and each will be an elimination round.</li>
+						<li>Each round will be a maximum of 30 minutes. The rules for each round will be announced just before the round begins.</li>
+						<li>The decision of the event managers will be final and binding</li>
+						</ul>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 5000</p>
+						<p>Second prize : 3000</p>
+						<p>Third Prize : 2000</p>
+						<H2>SCHEDULE</H2>
+						<H3>ROUND 1</H3>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 10:00 AM TO 11:00 AM</P>
+						<h3>ROUND 2 & 3</H3>
+						<P>DATE: OCTOBER 31</P>
+						<P>TIME : 1:00 PM TO 3:00 PM</P>
+						<h2>CONTACT</h2>
+						<p>Piyush Bhopalka +91-9567035202<br>Suraj Yadav +91-9567036198<br>VVS Raghu Pavan +91-9037489727</p>
+						<P>Email: <a href="mailto:debugger@tathva.org">debugger@tathva.org</a></P>
+
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<div class="content__item" id="content-3" href="CS003">
+				<div class="content__item-inner">
+					<h2>HACKAHOLIC</h2>
+					<div class="inst">
+						<h2>Ethical hackers never hack illegally</h2>
+						<p>This is the principle (and it’s not a warning).</p>
+						<p>Hackaholic is an event to test your knowledge on reading and understanding an obfuscated piece of code without prior programming knowledge.</p>
+						<h2>EVENT RULES</h2>
+						<ul>
+							<li>This is an individual event.</li>
+							<li>The participants need not have any prior programming knowledge to participate in this event.</li>
+							<li>A maximum of 7 participants only will be allowed to proceed to the final round. </li>
+							<li>Event managers' decision will be final in all matters regarding the event.</li>
+						</ul>
+						<h2>ROUNDS</h2>
+						<ul>
+							<li>The event consists of 2 rounds.</li>
+							<li>First round will be questions based on basic web application penetration testing.</li>
+							<li>For the final round, a system installed with Mozilla Firefox will be provided to each participant.</li>
+							<li>The nature of rounds is subject to changes by the event managers depending on the number of participants.</li>
+						</ul>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 5000</p>
+						<p>Second prize : 3000</p>
+						<p>Third Prize : 2000</p>
+						<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30</P>
+						<P>TIME : 2:00 PM</P>
+						<h2>CONTACT</h2>
+						<p>Shrimadhav U K: +91-8281753973<br>Ashwin Sreekumar: +91-7736875529<br>Mahesh Uligade: +919405423565</p>
+
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<div class="content__item" id="content-4" href="CS004">
+				<div class="content__item-inner">
+					<center><h2>KODERKOMBAT</h2></center>
+					<h3 style="font-size : 21.5px">Are you an ardent programmer? Do you believe you can model any real world problem into a program and solve it? If so we assure you that this is one competition where you can prove yourselves.</h3>
+					<p>We are conducting an online coding event in collaboration with CodeChef one of the best coding websites for a true blue programmer.</p>
+					<p>So prepare to combat with other amazing coders all over the world in over 30 languages of your choice.</p>
+					<center><img src="images/kokt.jpg" height="450px" width="700px" style="margin : 20px 20px 20px 20px"></center>
+					<div class="inst">
+						<h2>EVENT RULES</h2>
+							<p>1. It is an individual event.</p>
+							<p>2. Every contestant should have a valid CodeChef account.</p>
+							<p>3. The contest will have 1 round, 4 hour contest.</p>
+							<p>4. The contest will be on 24.10.2015, starting at 20:00 IST.</p>
+							<p>5. To claim the prizes, the participants must have a Tathva ID and should register for this event    			 <br>(The registration link for this event is at the bottom of the page) </p>
+							<p>6. To claim the prize money, you have to be participating from India.</p>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 8000</p>
+						<p>Second prize : 5000</p>
+						<p>Third Prize : 2000</p>
+						
+						<h2>CONTACT</h2>
+						<p>Jaya Krishna M : +91-8137900339<br>Ashok Dhungana : +91-9567035187<br>Prabhav Adhikari : +91-9895641059 <br>Email: koderkombat@tathva.org</p>
+
+					</div>
+					<center><a target="_blank" href="https://docs.google.com/forms/d/12RH45T8yw-R2Bhu9pcLbM-ZkgluGR_qGoinW3vLsYZA/viewform?c=0&w=1" class="eventregclass openthemodal">Register for this event</a></center>
+					
+				</div>
+			</div>
+			<div class="content__item" id="content-5" href="CS005">
+				<div class="content__item-inner">
+					<h2>TUX OF WAR</h2>
+					<h3>Unix is user-friendly. It's just very selective about who its friends are</h3>
+					<p>Tux of War is basically an event for all Linux enthusiasts. If you like to work around in Linux shell rather than use the GUI, this event is tailor-made for you all. </p>
+					<center><img src="images/tow.jpg" height="450px" width="700px" style="margin : 20px 20px 20px 20px"></center>
+					<div class="inst">
+						<h2>EVENT RULES</h2>
+						<ul>
+							<li> A team can consist of a maximum of 2 members. </li>
+							<li>Single-member teams are allowed.</li>
+							<li> Any numbers of teams are allowed from a college.</li>
+							<li>Inter-college teams are also allowed.</li>
+							<li>Points will be distributed equally if inter-college teams emerge as winners.</li>
+							<li> A maximum of 7 teams only will be allowed to proceed to the final round.</li>
+							<li>Event managers’ decision will be final in all matters regarding the event.</li>
+							
+						</ul>
+						<h2>ROUNDS</h2>
+						<ul>
+							<li>The event consists of 2 rounds. </li>
+							<li>First round will be questions based on basic Linux shell commands and shell scripting.</li>
+							<li>For the final round, a Linux terminal will be provided to each team.</li>
+							<li>The nature of rounds is subject to changes by the event managers depending on the number of participants. </li>
+							
+						</ul>
+						<h2>PARTICIPATION</h2>
+						<ol>
+							<li>Minimum: 1 </li>
+							<li>Maximum: 2</li>
+														
+						</ol>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 5000</p>
+						<p>Second prize : 3000</p>
+						<H2>SCHEDULE</H2>
+						<H3>ROUND 1</H3>
+						<P>DATE : OCTOBER 31</p>
+						<P>TIME : 11:00 AM TO 12:00 PM</P>
+						<H3>ROUND 2</H3>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 4:00 PM TO 5:00 PM</P>
+						<h2>CONTACT</h2>
+						<p>Azharullah : +91-8137905656 <br>Saksham Agarwal : +91-9020241491<br>Simsarul haq vengisseri : +91-8891428851<br> </p>
+						<H2>EVENT MAIL</H2>
+							<P>tuxofwar@tathva.org</P>
+
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+
+			<div class="content__item" id="content-6" href="CS006">
+				<div class="content__item-inner">
+					<h2>ArtInEx </h2>
+					<p>Despite AI being around for several decades, there has been a sudden spurt in the industry’s interest in this space, primarily due to the explosion in data, availability of high computing power and cheaper storage</p>
+
+					<p>We at TCS Artificial Intelligence Lab (AIL) focuses on applying AI to business problems to enrich and enhance the business outcomes. Our work focuses on multiple areas of AI like Machine Learning, Recommendation Engines, NLP, NLU, Deep Learning, Knowledge Representation to name a few. AIL is part of Digital Enterprise Unit in Tata Consultancy Services.
+					</p>
+
+					<p>Targeted at students from leading engineering and technology institutes, the Contest aims to develop an interest in this space, Drive excellence, and encourage Thought Leadership and Innovations</p>
+
+					<div class="inst">
+						<h2>For further details, <a target="_blank" href="https://drive.google.com/file/d/0B2g3fxo-kR0YbndZRHFWYWMwLUk/view?usp=sharing"> here </a></h2>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 18000</p>
+						<p>Second prize : 12000</p>
+						<p>Third Prize : 7000</p>
+						<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 10:00 AM TO 4:00 PM</P>
+						<h2>CONTACT :</h2>
+						<p>Akhil S : +91-8547314710 <br>Aashish Satyajith : +91-8606343845<br> Anshul Chokhani : +91-9496700276<br> </p>
+						<H2>EVENT MAIL</H2>
+							<P>artinex@tathva.org</P>
+
+					</div>
+					
+				</div>
+			</div>
+						
+			<button id="close" class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+
+	<nav id="cd-vertical-nav">
+		<ul id="navtor">
+			
+			
+			<li>
+				<a href="#content-2" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Debugger</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-3" data-number="3">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Hackaholic</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-4" data-number="4">
+					<span class="cd-dot"></span>
+					<span class="cd-label">KoderKombat</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-5" data-number="5">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Tux of War</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-5" data-number="5">
+					<span class="cd-dot"></span>
+					<span class="cd-label">ArtInEx</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript" src="js/mods.js"></script>
+	<script src="bouncer/js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

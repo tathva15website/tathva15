@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1024" />
+	<title>Category Name</title>
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/mods.css">
+	<script src="js/modernizr.custom.js"></script>
+	<!-- Bouncy Navigation Files -->
+	<link rel="stylesheet" href="bouncer/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="bouncer/css/style.css"> <!-- Resource style -->
+	<script src="bouncer/js/modernizr.js"></script> <!-- Modernizr -->
+	<!-- Navigator files -->
+	<link rel="stylesheet" href="navigator/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="navigator/css/style.css"> <!-- Resource style -->
+	<script src="navigator/js/modernizr.js"></script> <!-- Modernizr -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="../general.css" rel="stylesheet" type="text/css">
+	<script src="../general.js"></script>
+	
+</head>
+<body>
+
+	<a href="http://www.tathva.org/"><img id="tathvapic" src="../general_images/home.png" alt="Tathva pic"></a>
+
+	<a id="permodal" class="openthemodal permreg" >Get Tathva ID</a>
+
+	<style>
+    	.openthemodal{
+			padding:10px !important;
+			cursor:pointer;	
+			width:120px;
+		}
+    </style>
+
+	<div id="openModal" class="modalDialog">
+	    
+	    <div><a href="" title="Close1" class="close1">X</a>
+
+	    <iframe id="frames" src="" frameborder="0" scrolling="no"></iframe>
+	        
+	    </div>
+	</div>
+
+	<!-- Main container -->
+	<div class="container" style="opacity : 1">
+
+		<section class="cd-section">
+			<a class="cd-bouncy-nav-trigger" href="#0">Browse categories</a>
+		</section> <!-- .cd-section -->
+
+		<div class="cd-bouncy-nav-modal">
+			<style>
+            	.cd-bouncy-nav a{
+						opacity:0;
+				}
+				
+				.cd-bouncy-nav a::before{
+					display:none;
+					
+				}
+				
+            	.cd-bouncy-nav li:hover a{
+						opacity:1;
+				}
+				.cd-bouncy-nav li{
+					height: 160px;
+    				overflow: hidden;
+				}
+            </style>
+            
+            <nav >
+				<ul class="cd-bouncy-nav">
+					<li style="background:url(ic1/ec.png);background-size:contain;"><a href="../Electronics/index.html" style="width:100%;height:100%">Electronics</a></li>
+					<li style="background:url(ic1/elec.png);background-size:contain;"><a href="../Electrical/index.html"  style="width:100%;height:100%">Electrical</a></li>
+					<li style="background:url(ic1/robotics.png);background-size:contain;"><a href="../Robotics/index.html"  style="width:100%;height:100%">Robotics</a></li>
+					<li style="background:url(ic1/blueprint.png);background-size:contain;"><a href="../Blueprint/index.html"  style="width:100%;height:100%">Blueprint<br>paper<br>presentation</a></li>
+					<li style="background:url(ic1/adizya.png);background-size:contain;"><a href="../Adizya/index.html"  style="width:100%;height:100%">Adizya</a></li>
+					<li style="background:url(ic1/blizk.png);background-size:contain;"><a href="../Blitzkrieg/index.html"  style="width:100%;height:100%">Blitzkrieg</a></li>
+					<li style="background:url(ic1/phy.png);background-size:contain;"><a href="../Physics/index.html"  style="width:100%;height:100%">Physics</a></li>
+					<li style="background:url(ic1/online.png);background-size:contain;"><a href="../Online Events/index.html"  style="width:100%;height:100%">Online Events</a></li>
+					<li style="background:url(ic1/quiz.png);background-size:contain;"><a href="../Quiz/index.html"  style="width:100%;height:100%">Quizzing</a></li>
+					<li style="background:url(ic1/mech.png);background-size:contain;"><a href="../Mechanical/index.html"  style="width:100%;height:100%">Mechanical</a></li>
+					<li style="background:url(ic1/civil.png);background-size:contain;"><a href="../Civil/index.html"  style="width:100%;height:100%">Civil</a></li>
+					<li style="background:url(ic1/general.png);background-size:contain;"><a href="../General/index.html"  style="width:100%;height:100%">General</a></li>
+					<li style="background:url(ic1/CS.png);background-size:contain;"><a href="../Computer_Science/index.html"  style="width:100%;height:100%">Computer Science</a></li>					
+					<li style="background:url(ic1/youngengg.png);background-size:contain;"><a href="../Young_Engineer/index.html"  style="width:100%;height:100%">Young Engineer</a></li>
+					<li style="background:url(ic1/manag.png);background-size:contain;"><a href="../Bizspark/index.html"  style="width:100%;height:100%">Bizspark</a></li>
+					<li style="background:url(ic1/workshop.png);background-size:contain;"><a href="../Workshops/index.html"  style="width:100%;height:100%">Workshops</a></li>
+					<li style="background:url(ic1/chemical.png);background-size:contain;"><a href="../Chemical/index.html"  style="width:100%;height:100%">Chemical</a></li>
+					
+				</ul>
+			</nav>
+			
+			<a href="#0" class="cd-close">Close modal</a>
+
+		</div>
+		
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/robotics.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> ROBOTICS </span> </h2>
+				<div class="sponsorlink"><p>For robotic components <br> and wireless systems , <br> <center> visit  :</center></p><br><a target="_blank" href="http://www.sproboticworks.com/products/"><img src="SPRW Logo.png"></a></div>		
+				<style type="text/css">
+					.sponsorlink p
+					{
+						margin-right: 30px !important;
+						font-size: 20px;
+					}
+					.sponsorlink img
+					{
+						height: 80px !important;
+					    width: 100px !important;
+					    margin-right: 30px !important;
+					}
+					.sponsorlink
+					{
+						position: absolute;
+						bottom : 1%;
+						right: 20px;
+
+					}
+				</style>	
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/robotics.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> ROBOTICS </span> </h2>
+				<div class="sponsorlink"><p>For robotic components <br> and wireless systems , <br> <center> visit  :</center></p><br><a target="_blank" href="http://www.sproboticworks.com/products/"><img src="SPRW Logo.png"></a></div>	
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/robotics.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> ROBOTICS </span> </h2>
+				<div class="sponsorlink"><p>For robotic components <br> and wireless systems , <br> <center> visit  :</center></p><br><a target="_blank" href="http://www.sproboticworks.com/products/"><img src="SPRW Logo.png"></a></div>	
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/robotics.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> ROBOTICS </span> </h2>
+				<div class="sponsorlink"><p>For robotic components <br> and wireless systems , <br> <center> visit  :</center></p><br><a target="_blank" href="http://www.sproboticworks.com/products/"><img src="SPRW Logo.png"></a></div>	
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/robotics.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> ROBOTICS </span> </h2>
+				<div class="sponsorlink"><p>For robotic components <br> and wireless systems , <br> <center> visit  :</center></p><br><a target="_blank" href="http://www.sproboticworks.com/products/"><img src="SPRW Logo.png"></a></div>	
+			</div>
+			<div class="slide" data-content="content-6">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/robotics.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> ROBOTICS </span> </h2>
+				<div class="sponsorlink"><p>For robotic components <br> and wireless systems , <br> <center> visit  :</center></p><br><a target="_blank" href="http://www.sproboticworks.com/products/"><img src="SPRW Logo.png"></a></div>	
+			</div>
+			<div class="slide" data-content="content-7">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/robotics.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> ROBOTICS </span> </h2>
+				<div class="sponsorlink"><p>For robotic components <br> and wireless systems , <br> <center> visit  :</center></p><br><a target="_blank" href="http://www.sproboticworks.com/products/"><img src="SPRW Logo.png"></a></div>	
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev" id="moveleft"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom" id="magnify"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next" id="moveright"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1" href="RB001">
+				<div class="content__item-inner">
+					<h2>AMAZED</h2>
+					<p>Mahabharata was one of the largest wars ever fought in the plains of Kurukshetra where Pandavas fought Kauravas. Drona , one of the greatest tactician, designed a highly complex  maze known as Chakravyuha. Abhimanyu, son of Arjuna, fearlessly fought, entered the vyuha and reached its heart. But the fate was against him. Alone and isolated he failed to break out of this fearsome maze and died heroically. </p>
+					<p>TATHVA '15 presents the new amazing Chakravyuha before you. Build your own Abhimanyu (autonomous line-maze solver bot) which breaks into this complex maze we make for you. Can you change the fate of Abhimanyu and be victorious? </p>
+					<p>The countdown has begun....</p>
+					<div class="inst">
+						<h2> Find more details <a href="AMAZED ROBOTICS.docx"> here </a> </h2>
+						<H2>SCHEDULE</H2>
+						<H3>ROUND 1</H3>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 9:30 AM</p>
+						<H3>ROUND 2</H3>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 1:30 PM</P>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 15000</p>
+						<p>Second prize : 10000</p>
+						<p>Third Prize : 5000</p>
+						<h2> CONTACT :</h2>
+						<ul>
+							<p>B ANVESH MUDIRAJ : (+91)8891221881 </p>
+							<p>K N PRATHYUSH : (+91)8089936347</p>
+							<p>RANGANATH : (+91)9567036836</p>
+						</ul>
+						<h2>EVENT MAIL</H2>
+						<P>linemazesolver@tathva.org</p>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+				<div class="sponsorlink"><p>For robotic components <br> and wireless systems , <br> <center> visit  :</center></p><br><a target="_blank" href="http://www.sproboticworks.com/products/"><img src="SPRW Logo.png"></a></div>	
+			</div>
+            <div class="content__item" id="content-2" href="RB002">
+				<div class="content__item-inner">
+					<h2>COLLISION COURSE</h2>
+					<p></p>
+					<div class="inst">
+						<h2> Find more details <a href="COLLISION COURSE-ROBOTICS.docx"> here </a> </h2>
+						<H2>SCHEDULE</H2>
+						<H3>ROUND 1&2</H3>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 9:30 AM</P>
+						<H3>ROUND 3</H3>
+						<P>DATE : NOVEMBER 1</P>
+						<P>TIME : 9:30 AM</P>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 18000</p>
+						<p>Second prize : 10000</p>
+						<p>Third Prize : 7000</p>
+						<h2> CONTACT : </h2>
+						<ul>
+							<p>K BALAJI PRASANNA KUMAR : (+91)8136909294 </p>
+							<p>K HRUDAY : (+91)7736227177</p>
+							<p>P K CHAITANYA : (+91)8891382508 </p>
+						</ul>
+						<h2>EVENT MAIL</H2>
+						<P>collisioncourse@tathva.org<BR><BR></p>
+						
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+				<div class="sponsorlink"><p>For robotic components <br> and wireless systems , <br> <center> visit  :</center></p><br><a target="_blank" href="http://www.sproboticworks.com/products/"><img src="SPRW Logo.png"></a></div>	
+			</div>
+			<div class="content__item" id="content-3" href="RB003">
+				<div class="content__item-inner">
+					<h2>DEATH RACE</h2>
+					<p>This is an event which makes you feel like "Staying First in the race is the toughest job in the world". Neither the organizers nor the opponent would want you to stay first. So "Push the Pedal to the medal", get the robot which can finish the race before your opponent does</p>
+					<div class="inst">
+						<h2> Find more details <a href="DEATH RACE-ROBOTICS.docx"> here </a> </h2>
+						<H2>SCHEDULE</H2>
+						<H3>ROUND 1</H3>
+						<P>DATE : OCTOBER 30</P>
+						<P>TIME : 9:30 AM</P>
+						<H3>ROUND 2&3</H3>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 9:30 AM</P>
+						<H3>ROUND 4</H3>
+						<P>DATE : NOVEMBER 1</P>
+						<P>TIME : 9:30 AM</P>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 12000</p>
+						<p>Second prize : 8000</p>
+						<p>Third Prize : 4000</p>
+						<h2> CONTACT: </h2>
+						<ul>
+							<p>HARSHAVARDHAN REDDY : (+91)8137899544  </p>
+							<p>P VAMSHIDHAR REDDY : (+91)8137900885 </p>
+							<p>D UDAY KUMAR : (+91)7736268853 </p>
+						</ul>
+						<h2>EVENT MAIL</H2>
+						<P>deathrace@tathva.org</p>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+				<div class="sponsorlink"><p>For robotic components <br> and wireless systems , <br> <center> visit  :</center></p><br><a target="_blank" href="http://www.sproboticworks.com/products/"><img src="SPRW Logo.png"></a></div>	
+			</div>
+			<div class="content__item" id="content-4" href="RB004">
+				<div class="content__item-inner">
+					<h2>DIRT RACE</h2>
+					<p>“IT’S NOT ABOUT JUST BEING FAST “.  Defy the traps , time your gaps because driving on the highway is way too mainstream. Come onto to the race track filled with the unexpected as Tathva'15 presents to you Dirt Race.
+There is no creation without a creator, see if the robot of yours has what it takes to withstand this test of speed, skill and endurance. Stride past the other robots at top speed to emerge the champion of this race. Gear up your robot for the ultimate Dirt Race.
+</p>
+					<div class="inst">
+						<h2> Find more details <a href="DIRT RACE-ROBOTICS.docx"> here </a> </h2>
+						<H2>SCHEDULE</H2>
+						<H3>ROUND 1</H3>
+						<P>DATE : OCTOBER 30</P>
+						<P>TIME : 9:30 AM</P>
+						<H3>ROUND 2&3</H2>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 9:30 AM</P>
+						<H3>ROUND 4</H3>
+						<P>DATE : NOVEMBER 1</P>
+						<P>TIME : 9:30 AM</P>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 15000</p>
+						<p>Second prize : 10000</p>
+						<p>Third Prize : 5000</p>
+						<h2>CONTACT</H2>
+						<P>Giridhar Penubaka : 8137911221</p>
+						<p>Tallapalli Mahesh : 8137903838</P>
+						<p>Arshad Vali : 8137911334</p>
+						<h2>EVENT MAIL</H2>
+						<P>dirtrace@tathva.org</p>
+						
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+				<div class="sponsorlink"><p>For robotic components <br> and wireless systems , <br> <center> visit  :</center></p><br><a target="_blank" href="http://www.sproboticworks.com/products/"><img src="SPRW Logo.png"></a></div>	
+			</div>
+			<div class="content__item" id="content-5" href="RB005">
+				<div class="content__item-inner">
+					<h2>LEAGUE OF MACHINES </h2>
+					<p>Robots have made their entry into every walk of life, how can sports be left out? As we know Soccer undeniably is the world’s favorite sport, this event is a platform to make innovative soccer robots. League of Machines was first staged in the 2006 edition of Tathva and is a highly popular and anticipated event for both the participants, roboters and the tech-lovers</p>
+					<div class="inst">
+						<h2> Find more details <a href="LEAGUE OF MACHINES.docx"> here </a> </h2>
+						<H2>SCHEDULE</H2>
+						<H3>ROUND 1</H3>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 9:30 AM</P>
+						<H3>ROUND 2</H3>
+						<P>DATE : NOVEMBER 1</P>
+						<P>TIME : 9:30 AM</P>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 12000</p>
+						<p>Second prize : 8000</p>
+						<p>Third Prize : 4000</p>
+						<h2>CONTACT</H2>
+						<p>Chintala Hashwanth : 7736719668</p>
+						<p>Patnam Lok Prasanna Kumar : 9037535369</P>
+						<p>B Akhilesh : 8606070489</P>
+						<p>T Sai Bhargav Varma : 9567037105</p>
+						<h2>EVENT MAIL</H2>
+						<p>leagueofmachines@tathva.org</p>
+						
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+				<div class="sponsorlink"><p>For robotic components <br> and wireless systems , <br> <center> visit  :</center></p><br><a target="_blank" href="http://www.sproboticworks.com/products/"><img src="SPRW Logo.png"></a></div>	
+			</div>
+			<div class="content__item" id="content-6" href="RB006">
+				<div class="content__item-inner">
+					<h2>SCHWIMMWAGEN</h2>
+					<p>A challenge only becomes an obstacle when you bow to it.
+Thinking of going on land? Car. 
+On water? Boat. 
+How about both?
+In this test of engineering skills, challenge yourself to build the ultimate all terrain vehicle capable of maneuvering through twisted paths and conquering the elements of earth and water</p>
+					<div class="inst">
+						<h2> Find more details <a href="SCHWIMMWAGEN.docx"> here </a> </h2>
+						<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30</P>
+						<P>TIME : 9:30 AM</P>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 10000</p>
+						<p>Second prize : 6000</p>
+						<p>Third Prize : 4000</p>
+						<h2>CONTACT</H2>
+						<p>S Eswar Sai Prathap : 9441441888</P>
+						<p>Sanjay Krishan C : 8592884589</p>
+						<p>Nidhin Manoj : 9496621713</P>
+						<h2>EVENT MAIL</H2>
+						<p>schwimmwagen@tathva.org</p>
+						
+						
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+				<div class="sponsorlink"><p>For robotic components <br> and wireless systems , <br> <center> visit  :</center></p><br><a target="_blank" href="http://www.sproboticworks.com/products/"><img src="SPRW Logo.png"></a></div>	
+			</div>
+			<div class="content__item" id="content-7" href="RB007">
+				<div class="content__item-inner">
+					<h2>TRANSPORTER</h2>
+					<p>Transportation has seen a wide range of revolution after its mystical evolution. Science and slothfulness are inextricable, yet man is so crazy and ready to put diligent effort for scientific growth. Tathva 2015 brings the place to redeem yoursel. Be lazy, think crazy and create shortcuts to be the best in the arena. Remember speed matters, face the light and fight to be the best transporter</p>
+					<div class="inst">
+						<h2> Find more details <a href="TRANSPORTER.docx"> here </a> </h2>
+						<H2>SCHEDULE</H2>
+						<H3>ROUND 1</H3>
+						<P>DATE : OCTOBER 30</P>
+						<P>TIME : 9:30 AM</P>
+						<H3>ROUND 2</H3>
+						<P>DATE : OCTOBER 30</P>
+						<P>TIME : 1:30 PM</P>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 15000</p>
+						<p>Second prize : 12000</p>
+						<p>Third Prize : 8000</p>
+						<h2>CONTACT</h2>
+						<p>K Manoj Kumar : 8137905353</p>
+						<p>V Anirudh : 9496329881</p>
+						<p>K Manpreeth Sai : 8096138485</p>
+						<h2>EVENT MAIL</H2>
+						<p>transporter@tathva.org</p>
+						
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+				<div class="sponsorlink"><p>For robotic components <br> and wireless systems , <br> <center> visit  :</center></p><br><a target="_blank" href="http://www.sproboticworks.com/products/"><img src="SPRW Logo.png"></a></div>	
+			</div>
+			<button id="close" class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+
+	<nav id="cd-vertical-nav">
+		<ul id="navtor">
+			<li>
+				<a href="#content-1" data-number="1">
+					<span class="cd-dot"></span>
+					<span class="cd-label">AMAZED</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-2" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">COLLISION COURSE</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-3" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">DEATH RACE</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-4" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">DIRT RACE</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-5" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">LEAGUE OF MACHINES</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-6" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">SCHWIMMWAGEN</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-7" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">TRANSPORTER</span>
+				</a>
+			</li>
+			
+		</ul>
+	</nav>
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript" src="js/mods.js"></script>
+	<script src="bouncer/js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

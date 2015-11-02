@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1024" />
+	<title>Category Name</title>
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/mods.css">
+	<script src="js/modernizr.custom.js"></script>
+	<!-- Bouncy Navigation Files -->
+	<link rel="stylesheet" href="bouncer/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="bouncer/css/style.css"> <!-- Resource style -->
+	<script src="bouncer/js/modernizr.js"></script> <!-- Modernizr -->
+	<!-- Navigator files -->
+	<link rel="stylesheet" href="navigator/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="navigator/css/style.css"> <!-- Resource style -->
+	<script src="navigator/js/modernizr.js"></script> <!-- Modernizr -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="../general.css" rel="stylesheet" type="text/css">
+	<script src="../general.js"></script>
+	
+</head>
+<body>
+
+	<a href="http://www.tathva.org/"><img id="tathvapic" src="../general_images/home.png" alt="Tathva pic"></a>
+
+	<a id="permodal" class="openthemodal permreg" >Get Tathva ID</a>
+
+	<style>
+    	.openthemodal{
+			padding:10px !important;
+			cursor:pointer;	
+			width:120px;
+		}
+    </style>
+
+	<div id="openModal" class="modalDialog">
+	    
+	    <div><a href="" title="Close1" class="close1">X</a>
+
+	    <iframe id="frames" src="" frameborder="0" scrolling="no"></iframe>
+	        
+	    </div>
+	</div>
+
+	<!-- Main container -->
+	<div class="container" style="opacity : 1">
+
+		<section class="cd-section">
+			<a class="cd-bouncy-nav-trigger" href="#0">Browse categories</a>
+		</section> <!-- .cd-section -->
+
+		<div class="cd-bouncy-nav-modal">
+			<style>
+            	.cd-bouncy-nav a{
+						opacity:0;
+				}
+				
+				.cd-bouncy-nav a::before{
+					display:none;
+					
+				}
+				
+            	.cd-bouncy-nav li:hover a{
+						opacity:1;
+				}
+				.cd-bouncy-nav li{
+					height: 160px;
+    				overflow: hidden;
+				}
+            </style>
+            
+            <nav >
+				<ul class="cd-bouncy-nav">
+					<li style="background:url(ic1/ec.png);background-size:contain;"><a href="../Electronics/index.html" style="width:100%;height:100%">Electronics</a></li>
+					<li style="background:url(ic1/elec.png);background-size:contain;"><a href="../Electrical/index.html"  style="width:100%;height:100%">Electrical</a></li>
+					<li style="background:url(ic1/robotics.png);background-size:contain;"><a href="../Robotics/index.html"  style="width:100%;height:100%">Robotics</a></li>
+					<li style="background:url(ic1/blueprint.png);background-size:contain;"><a href="../Blueprint/index.html"  style="width:100%;height:100%">Blueprint<br>paper<br>presentation</a></li>
+					<li style="background:url(ic1/adizya.png);background-size:contain;"><a href="../Adizya/index.html"  style="width:100%;height:100%">Adizya</a></li>
+					<li style="background:url(ic1/blizk.png);background-size:contain;"><a href="../Blitzkrieg/index.html"  style="width:100%;height:100%">Blitzkrieg</a></li>
+					<li style="background:url(ic1/phy.png);background-size:contain;"><a href="../Physics/index.html"  style="width:100%;height:100%">Physics</a></li>
+					<li style="background:url(ic1/online.png);background-size:contain;"><a href="../Online Events/index.html"  style="width:100%;height:100%">Online Events</a></li>
+					<li style="background:url(ic1/quiz.png);background-size:contain;"><a href="../Quiz/index.html"  style="width:100%;height:100%">Quizzing</a></li>
+					<li style="background:url(ic1/mech.png);background-size:contain;"><a href="../Mechanical/index.html"  style="width:100%;height:100%">Mechanical</a></li>
+					<li style="background:url(ic1/civil.png);background-size:contain;"><a href="../Civil/index.html"  style="width:100%;height:100%">Civil</a></li>
+					<li style="background:url(ic1/general.png);background-size:contain;"><a href="../General/index.html"  style="width:100%;height:100%">General</a></li>
+					<li style="background:url(ic1/CS.png);background-size:contain;"><a href="../Computer_Science/index.html"  style="width:100%;height:100%">Computer Science</a></li>					
+					<li style="background:url(ic1/youngengg.png);background-size:contain;"><a href="../Young_Engineer/index.html"  style="width:100%;height:100%">Young Engineer</a></li>
+					<li style="background:url(ic1/manag.png);background-size:contain;"><a href="../Bizspark/index.html"  style="width:100%;height:100%">Bizspark</a></li>
+					<li style="background:url(ic1/workshop.png);background-size:contain;"><a href="../Workshops/index.html"  style="width:100%;height:100%">Workshops</a></li>
+					<li style="background:url(ic1/chemical.png);background-size:contain;"><a href="../Chemical/index.html"  style="width:100%;height:100%">Chemical</a></li>
+					
+				</ul>
+			</nav>
+			
+			<a href="#0" class="cd-close">Close modal</a>
+
+		</div>
+		
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/workshop.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> WORKSHOPS</span> </h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/workshop.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> WORKSHOPS</span> </h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/workshop.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> WORKSHOPS</span> </h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/workshop.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> WORKSHOPS</span> </h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/workshop.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> WORKSHOPS</span> </h2>
+			</div>
+			<div class="slide" data-content="content-6">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/workshop.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> WORKSHOPS</span> </h2>
+			</div>
+			<div class="slide" data-content="content-7">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/workshop.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> WORKSHOPS</span> </h2>
+			</div>
+			
+			<nav class="slider__nav">
+				<button class="button button--nav-prev" id="moveleft"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom" id="magnify"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next" id="moveright"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1" href="WK001">
+				<div class="content__item-inner">
+					<h2>CANSAT</h2>
+					<P>Have you ever dreamed of making a satellite of your own. Well this tathva, we bring to you the CANSAT workshop – first of its kind in India. Build and launch your own working microsatellite in this two day workshop conducted by experts .
+					
+					
+					<div class="inst">
+					<p><br>For more details <a href="Cansat Final Description.docx">click here</a>
+					<H2>SCHEDULE</H2>
+					<P>DATE : OCTOBER 30&31</P>
+					<P>TIME : 9:30 AM</P>
+						<h2>CONTACT</H2>
+					<P>Abdul Rouf : 8089989980
+					<br>Najiketh : 9847476296
+					</P>
+						<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+					</div>
+				</div>
+			</div>
+            <div class="content__item" id="content-2" href="WK002">
+				<div class="content__item-inner">
+					<h2>ETHICAL HACKING</h2>
+					<h3></h3>
+					<p>Do You Think That Your Facebook Password's Are Safe? How Do You Know If The Transactions That You Do Are Safe Or Not? What If Someone Is Monitoring Your Gmail Accounts? What Are You Going To Do Then? Have You Ever Thought About It? Well No Need To Worry!!!
+Enter Into The World Of Hacking As Ethical Hackers. For this Tathva, We bring you the Ethical Hacking Workshop
+
+</p>
+					<div class="inst">
+					<h2>SPEAKER</H2>
+					<P>RAHUL TYAGI:</P>
+					<p>Rahul is a post-graduate with majors in Computer Science and has conducted to his account, more than a hundred training sessions globally in past 5 years. Being a cyber space researchers himself, He can claim to have found critical vulnerabilities on websites of Intel, Sony, HP, Discovery Networks, TED and many more. He has published two books-Hacking Crux 1&2 –both on Information Security. He is one of the most followed Indian Information Security Expert on various social media platforms.</p>
+					<H2>WORKSHOP HIGHLIGHTS</H2>
+					<P>•	Email Hacking
+<br>•	Information Gathering 
+<br>•	System Hacking
+<br>•	Mobile Hacking
+<br>•	Cyber Law
+<br>•	Website Hacking 
+<br>•	Google Hacks
+<br>•	Steganography
+<br>•	OWASP Top 10
+<br>•	Malware Analysis
+
+					</P>
+					<H2>WORKSHOP BENEFITS</h2>
+					<p>•	Internship at Lucideus Labs, IIT BOMBAY
+<br>•	Lucideus Cyber Ninja E- Toolkit
+<br>•	Exposure to Enterprise Security Testing 
+<br>•	Earn certification of “Lucideus Certified Cyber Security Expert” with the unique Certification ID
+
+					</p>
+					<h2>WORKSHOP DETAILS</h2>
+					<P>•	Date  : 30th-31st OCT 2015
+<BR>•	Fee   :  Rs.1200/-
+<BR>•	Laptop is mandatory
+
+					</P>
+					<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30&31</P>
+						<P>TIME : 9:30 AM</P>
+					<H2>CONTACT DETAILS</H2>
+					<P>•	Abdul Rauf - 8089989980
+<BR>•	Sreehari K  - 9497504833
+
+					</p>
+					
+						
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<div class="content__item" id="content-3" href="WK003">
+				<div class="content__item-inner">
+					<h2>NEURO LINGUISTIC PROGRAMMING</h2>
+					<h3></h3>
+					<p>Our brain is very similar to a computer. Just as it is possible to reprogram a computer, it is also possible to reprogram our mind. NLP is useful in reprogramming the brain. It is the study of what works in thinking, language and behavior. It is a way of coding and reproducing excellence that enables you to consistently achieve the result that you want in your life. </p>
+					<div class="inst">
+					<H2>WORKSHOP DESCRIPTION</H2>
+					<P>This workshop is meant for the participants to sharpen their management skills like leadership quality, creativity, time management, stressmanagement, attitude, project management and phobia cures and lot more. The workshop includes lots of interactive session and games which will provide fun-filled learning.
+					</P>
+					<p>The methodology is a combination of Neuro Linguistic Programming (NLP) & Experiential Learning methods like exercises, role plays, instruments, interactive discussions, mental gymnastics, indoor team role &creativity games. The objective is to install the learning into the subconscious mind of the delegate using experiential methods. Thus, the learning is never forgotten & will come to the aid of the delegate at the required time. Participants will be able to understand and learn from their behavioral patterns, become better team players, get rid of their fears and phobias, become more sensitive to team requirements and will be able to increase their self-confidence and creativity.</p>
+					<H2>WORKSHOP DETAILS</H2>
+					<P>•	30th October 2015
+<BR>•	Rs 600 per participant (Individual Workshop)
+
+					</P>
+					<H2>CERTIFICATION</H2>
+					<P>Certificate of participation will be given to every participants who have successfully completed the workshop signed by signatories of Tathva2015 including Tathva2015 logo.</P>
+					<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30</P>
+						<P>TIME : 2:00 PM</P>
+					<H2>CONTACT</H2>
+					<P>Danie : 8281975633</P>
+					<P>Abdul Rouf : 8089989980</P>	
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+
+			</div>
+
+			<div class="content__item" id="content-4" href="WK004">
+				<div class="content__item-inner">
+					<h2>RC AIRCRAFT</h2>
+					<h3></h3>
+					<p>This workshop presents you with an opportunity to understand the theory behind the functioning of RC Aircraft, its design and fabricate it from scratch.</p>
+					<div class="inst">
+					<h2>WORKSHOP DETAILS</h2>
+					<P>1.Build & Test your first RC Aircraft from scratch!
+
+<BR>2.Learn all the introductory concepts of aeronautical engineering through
+
+aeromodelling.
+
+<BR>3.Hands­on experience on the electronic and electrical instrumentation of an RC
+
+aircraft
+
+<BR>4.3 hr flight testing and competition.
+					</P>	
+					<H2>TOPICS COVERED</H2>
+					<P>Basics of Flight & Aeronautics
+
+<BR>• Different Systems in an Aircraft
+
+<BR>• Stability & Control of an Aircraft
+
+<BR>• Instrumentation in an RC Aircraft
+					</P>
+					<H2>BENEFITS</H2>
+					<P>1.Certificate of participation to all participants
+
+<BR>2.Certificate of excellence for best performers.
+
+<BR>3.Best fabrication award.
+
+<BR>4.Utility kit per team(including servomotors ,nylon clevishes and other accessories).
+					</P>
+					<H2>DETAILS</H2>
+					<P>1.DATE : 30th-31st OCT 2015
+
+
+
+<BR>2.5 participants per team
+
+<BR>3.Fees : Rs 1000 per participant
+
+<BR>4.1 Laptop per team mandatory
+</P>
+					<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30&31</P>
+						<P>TIME : 9:30 AM</P>		
+					<h2>CONTACT</h2>
+					<P>• Abdul Rauf : 8089989980
+
+<BR>• Kasyap V : 9037806556
+					</P>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			
+						<div class="content__item" id="content-5" href="WK005">
+				<div class="content__item-inner">
+					<h2>INTERNET OF THINGS</h2>
+					<h3></h3>
+					<p>Learn and Experience “The Next Big Thing” – Internet Of Things. Have hands on
+
+experience with this technology that created a new buzz in the field of modern computing.
+
+Come be a part of the next major leap forward in mankind’s technical evolution ­ The
+
+Internet of Things! Come to this workshop equipped with your own ideas and make them
+
+a reality.</p>
+					<div class="inst">
+					<h2>WORKSHOP HIGHLIGHTS</h2>
+					<P>What is Internet of Things and introduction to open Cloud Computing platforms
+
+<BR>• Introduction to Arduino IDE and its use in Home Automation.
+
+<BR>• How to connect Arduino to Internet and various Cloud services.
+
+<BR>• How to send sensor data to cloud services in real time.
+
+<BR>• Control Led’s, motors and various electronic components via a webpage.
+
+<BR>• Send tweets and update Cloud based services.
+
+<BR>• Control electronics devices using Android Smartphone.
+
+<BR>• Upload sensor data on Twitter using Cloud services
+					</P>	
+					<H2>BENEFITS</H2>
+					<P>• Kit including ARDUINO circuit board,dc motor, motor driver, LM35,
+
+ESP8266,other accessories per team.
+
+<BR>• Participation certificate
+					</P>
+					<H2>DETAILS</H2>
+					<P>• DATE : 30th-31st OCTOBER 2015
+
+<BR>• 5 participants per team
+
+<BR>• Fees : Rs 1000 per participant
+
+<BR>• 1 Laptop per team mandatory
+
+
+					</P>
+					<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30&31</P>
+						<P>TIME : 9:30 AM</P>
+					<H2>CONTACT</H2>
+					<P>Abdul Rouf :	8089989980
+
+<BR>Srihari K :	9497504833 
+</P>
+					
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			
+			<div class="content__item" id="content-6" href="WK006">
+				<div class="content__item-inner">
+					<h2>AUTOMOTIVE VEHICLE DESIGN</h2>
+					<h3></h3>
+					<p>Few things have captured the passion, the sometimes obsession, of men like the car. There’s no mystery as to why this is. Automobile represent a peculiar combination of several manly elements: danger, speed, singular focus, solitude, mechanics, noise, and physical skill. Lot of interested enthusiast does not have the correct knowledge and end up wasting a lot of their effort and resources in the hunt for automobile design expertise. This workshop will guide you to the every bit of detail so that you may build your dream automobile with flair.</p>
+					<div class="inst">
+					<h2>WORKSHOP HIGHLIGHTS</h2>
+					<P>	Lecture sessions through interactive presentations, hand-outs, video and animateddemonstrations. 
+<BR>	Present scenario of industrial standards and recent developments in automotive industry & related sectors. 
+<BR>	Hands on practical training of design consideration and techniques of automotive parts in a CAD software. 
+<BR>	Design analysis and simulation for the same. 
+<BR>	Practical demonstration through live dis assembling and assembling of a car engine. 
+<BR>	Technical quiz & design competition in the end.
+
+					</P>	
+					<H2>WORKSHOP DETAILS</H2>
+					<P>1.Date- 30th and 31st October 2015
+<BR>2.Registration Fees- Rs 750 per participant 
+<BR>3.The participants should carry laptops with them. 
+
+					</P>
+					<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30&31</P>
+						<P>TIME : 9:30 AM</P>
+					<H2>CONTACT</H2>
+					<P>Abdul Rouf : 8089989980
+
+<BR>Sayeed :9497631524
+</P>
+					
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<div class="content__item" id="content-7" href="WK007">
+				<div class="content__item-inner">
+					<h2>STOCKHUNT</h2>
+					<P> Explore the secrets of stock markets in just a day!!! Register for stock - hunt and be the next wolf of Dalal street :) !
+					
+					<p>For more details, <a href="stock-hunt description.docx"> click here</a></p>
+					<div class="inst">
+						<H2>SCHEDULE</H2>
+							<P>DATE : OCTOBER 31</P>
+							<P>TIME : 9:00 AM</P>
+						<h2>CONTACT</H2>
+					<P>Sreehari K :-9497504833
+					<br>Najiketh : 9847476296
+					</P>
+						<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+					</div>
+				</div>
+			</div>
+			
+			<button id="close" class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+
+	<nav id="cd-vertical-nav">
+		<ul id="navtor">
+			<li>
+				<a href="#content-1" data-number="1">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Cansat Microsatellite</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-2" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Ethical Hacking</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-3" data-number="3">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Neuro Linguistic Programming</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-4" data-number="4">
+					<span class="cd-dot"></span>
+					<span class="cd-label">RC Aircraft</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-5" data-number="5">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Internet of Things</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-6" data-number="6">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Automotive Vehicle Design</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-7" data-number="7">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Stock-hunt</span>
+				</a>
+			</li>
+
+
+		</ul>
+	</nav>
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript" src="js/mods.js"></script>
+	<script src="bouncer/js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

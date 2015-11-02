@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1024" />
+	<title>Category Name</title>
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/mods.css">
+	<script src="js/modernizr.custom.js"></script>
+	<!-- Bouncy Navigation Files -->
+	<link rel="stylesheet" href="bouncer/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="bouncer/css/style.css"> <!-- Resource style -->
+	<script src="bouncer/js/modernizr.js"></script> <!-- Modernizr -->
+	<!-- Navigator files -->
+	<link rel="stylesheet" href="navigator/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="navigator/css/style.css"> <!-- Resource style -->
+	<script src="navigator/js/modernizr.js"></script> <!-- Modernizr -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="../general.css" rel="stylesheet" type="text/css">
+	<script src="../general.js"></script>
+	
+</head>
+<body>
+
+	<a href="http://www.tathva.org/"><img id="tathvapic" src="../general_images/home.png" alt="Tathva pic"></a>
+
+	<a id="permodal" class="openthemodal permreg" >Get Tathva ID</a>
+
+	<style>
+    	.openthemodal{
+			padding:10px !important;
+			cursor:pointer;	
+			width:120px;
+		}
+    </style>
+
+	<div id="openModal" class="modalDialog">
+	    
+	    <div><a href="" title="Close1" class="close1">X</a>
+
+	    <iframe id="frames" src="" frameborder="0" scrolling="no"></iframe>
+	        
+	    </div>
+	</div>
+
+	<!-- Main container -->
+	<div class="container" style="opacity : 1">
+
+		<section class="cd-section">
+			<a class="cd-bouncy-nav-trigger" href="#0">Browse categories</a>
+		</section> <!-- .cd-section -->
+
+		<div class="cd-bouncy-nav-modal">
+			<style>
+            	.cd-bouncy-nav a{
+						opacity:0;
+				}
+				
+				.cd-bouncy-nav a::before{
+					display:none;
+					
+				}
+				
+            	.cd-bouncy-nav li:hover a{
+						opacity:1;
+				}
+				.cd-bouncy-nav li{
+					height: 160px;
+    				overflow: hidden;
+				}
+            </style>
+            
+            <nav >
+				<ul class="cd-bouncy-nav">
+					<li style="background:url(ic1/ec.png);background-size:contain;"><a href="../Electronics/index.html" style="width:100%;height:100%">Electronics</a></li>
+					<li style="background:url(ic1/elec.png);background-size:contain;"><a href="../Electrical/index.html"  style="width:100%;height:100%">Electrical</a></li>
+					<li style="background:url(ic1/robotics.png);background-size:contain;"><a href="../Robotics/index.html"  style="width:100%;height:100%">Robotics</a></li>
+					<li style="background:url(ic1/blueprint.png);background-size:contain;"><a href="../Blueprint/index.html"  style="width:100%;height:100%">Blueprint<br>paper<br>presentation</a></li>
+					<li style="background:url(ic1/adizya.png);background-size:contain;"><a href="../Adizya/index.html"  style="width:100%;height:100%">Adizya</a></li>
+					<li style="background:url(ic1/blizk.png);background-size:contain;"><a href="../Blitzkrieg/index.html"  style="width:100%;height:100%">Blitzkrieg</a></li>
+					<li style="background:url(ic1/phy.png);background-size:contain;"><a href="../Physics/index.html"  style="width:100%;height:100%">Physics</a></li>
+					<li style="background:url(ic1/online.png);background-size:contain;"><a href="../Online Events/index.html"  style="width:100%;height:100%">Online Events</a></li>
+					<li style="background:url(ic1/quiz.png);background-size:contain;"><a href="../Quiz/index.html"  style="width:100%;height:100%">Quizzing</a></li>
+					<li style="background:url(ic1/mech.png);background-size:contain;"><a href="../Mechanical/index.html"  style="width:100%;height:100%">Mechanical</a></li>
+					<li style="background:url(ic1/civil.png);background-size:contain;"><a href="../Civil/index.html"  style="width:100%;height:100%">Civil</a></li>
+					<li style="background:url(ic1/general.png);background-size:contain;"><a href="../General/index.html"  style="width:100%;height:100%">General</a></li>
+					<li style="background:url(ic1/CS.png);background-size:contain;"><a href="../Computer_Science/index.html"  style="width:100%;height:100%">Computer Science</a></li>					
+					<li style="background:url(ic1/youngengg.png);background-size:contain;"><a href="../Young_Engineer/index.html"  style="width:100%;height:100%">Young Engineer</a></li>
+					<li style="background:url(ic1/manag.png);background-size:contain;"><a href="../Bizspark/index.html"  style="width:100%;height:100%">Bizspark</a></li>
+					<li style="background:url(ic1/workshop.png);background-size:contain;"><a href="../Workshops/index.html"  style="width:100%;height:100%">Workshops</a></li>
+					<li style="background:url(ic1/chemical.png);background-size:contain;"><a href="../Chemical/index.html"  style="width:100%;height:100%">Chemical</a></li>
+					
+				</ul>
+			</nav>
+			
+			<a href="#0" class="cd-close">Close modal</a>
+
+		</div>
+		
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/ec.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> ELECTRONICS </span> </h2>
+			</div>
+			
+			
+			
+			
+			
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/ec.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> ELECTRONICS </span> </h2>
+				
+			</div>
+			
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/ec.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> ELECTRONICS</span> </h2>
+				
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev" id="moveleft"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom" id="magnify"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next" id="moveright"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1" href="EC001">
+				<div class="content__item-inner">
+					<h2>ANALOG IQ</h2>
+					<p>To all this digital multimedia, we should add “thank you analog”. If not for multitude of analog and mixed signal components, the digital media river would have slowed down to a trickle.  It is analog that connects bits to the real world. Endorsing this fact we bring to you , ANALOG IQ , a clash of wits and dexterity in a battle for the coveted prize.</p>
+					
+					
+					<div class="inst">
+						<h2> EVENT FORMAT </h2>
+						<p>Analog IQ is a circuit design contest consisting of two stages. The first consists of a written objective test pertaining to electronics. The top six teams will proceed to the second stage. The second stage may contain one or two levels. The problem statement for those levels will only be revealed at the time of the event. The circuit can be designed and implemented using discrete components and analog IC’s  listed in the specification. Design problems will test contestants problem solving skills and will require understanding of basic circuits consisting of Op-Amps , BJTs and other discrete components . Using IC’s other than specified will lead to disqualification. Candidates can ask for cluecards which will be availed with proper penalty. </p>
+						<p>Circuit is to be designed and implemented using the IC’s listed below (or their equivalents only):<br/>
+LM741<br/>
+LM311<br/>
+LM324<br/>
+555 Timer IC <br/>  
+</p>
+	
+					</div>
+					
+					<div class="inst">
+						<h2>JUDGING CRITERION  </h2>
+					  <ul>
+					  <li>Circuit Design and the overall efficiency. </li>
+					  <li>Time taken  for the completion.</li>
+					  <li>Number of clue cards used.</li>
+					  </ul>
+	
+					</div>
+						<div class="inst">
+						<h2>PARTICIPATION</h2>
+					  <p>Minimum 1</p> 
+<p>Maximum 3 per team</p>
+	
+					</div>
+					<div class="inst">
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 8000</p>
+						<p>Second prize : 5000</p>
+						<p>Third Prize : 3000</p>
+						<H2>SCHEDULE</H2>
+						<H3>ROUND 1</H3>
+						<P>DATE : OCTOBER 30</P>
+						<P>TIME : 9:30 AM</P>
+						<H3>ROUND 2</H3>
+						<P>DATE : OCTOBER 30</P>
+						<P>TIME : 2:00 PM</P>
+						<h2>CONTACT </h2>
+					  
+					  <p>Sai Charan : 8137900338</p>
+					  <p>Vishal Prakash : 8137900229</p>
+					  <p>Manasa Sandhya : 9567035904</p>
+					  <p>Chitloori Roopasree : 8129041638</p>
+					 <h2>EVENT MAIL</H2>
+						<P>analogiq@tathva.org</P>
+	
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+            <div class="content__item" id="content-2" href="EC002">
+				<div class="content__item-inner">
+					<h2>E RACER</h2>
+					<p>Are you the digital warrior who gets an adrenaline rush when faced with a problem to sink your teeth into? Does the tick of a clock leave you shaken and stirred? Do you feel right at home in the middle of resistors, transistors, soldering, CROs and capacitors?
+Then E RACER is just the event for you!</p>
+					<div class="inst">
+						<h2> DETAILS </h2>
+						<p>
+							The event will be conducted in 3 rounds.<br/>
+							The first round will be a quizzing round on basic electronics, current affairs and basic programming.<br/>
+							At most 10 teams will be selected into the second round.<br/>
+							Second round :<br/>
+							This is a surprise round which will be revealed on the day of event.<br/>
+							The teams screened through second round will have to buy their way into third round using the points they earned in first and second rounds.<br/>
+							Third round will be based on circuit designing and Logic design.
+
+							
+							</p>
+						
+					
+					</div>
+						<div class="inst">
+						<h2>RULES </h2>
+						<ul>
+						<li>All the rounds are strictly time bound.</li>
+						<li>Each team will consist of minimum 2 members and maximum of three.</li>
+						<li>Inter-college teams are allowed.</li>
+						<li>Spot registrations are permitted.</li>
+						<li>Use of mobile phones and any other electronic devices is not permitted until unless mentioned by the event managers at the time of event.</li>
+						<li>The decision of the organizing panel will be considered absolute in all matters.</li>
+						
+						</ul>
+						
+					
+					</div>
+					<div class="inst">
+						<h2>PARTICIPATION </h2>
+						<p>Minimum: 2</p>
+						<p>Maximum: 3</p>
+						
+						
+					
+					</div>
+					<div class="inst">
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 8000</p>
+						<p>Second prize : 5000</p>
+						<p>Third Prize : 3000</p>
+						<H2>SCHEDULE</H2>
+						<H3>ROUND 1</H3>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 9:30 AM</P>
+						<H3>ROUND 2</H3>
+						<p>DATE : OCTOBER 31</P>
+						<P>TIME : 2:00 PM</p>
+						<H3>ROUND 3</H3>
+						<P>DATE : NOVEMBER 1</P>
+						<p>TIME : 10:00 AM</P>
+						<h2>CONTACT </h2>
+						<p>Y.Sreenivasulu Reddy : (+91)8893290405  </p>
+						<p>Guru Kiran K.V : (+91)8137904141  </p>
+						<p>Pavan Kumar : (+91)8137911299 </p>
+						<p>Sumanth : (+91)8137911099 </p>
+						<h2>EVENT MAIL</H2>
+						<P>eracer@tathva.org</P>
+					
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<div class="content__item" id="content-3" href="EC003">
+				<div class="content__item-inner">
+					<h2>GSM LABYRINTH</h2>
+					<p>Technical acumen + creativity + adrenaline!! is what this event is all about. So if you 
+are the kind of person that loves pursuing hobby projects and has got a taste for 
+adrenaline rush, this is an event you cannot miss!
+
+GSM controlled robot is a land rover which is capable of receiving a set of command 
+instructions in the form of short message service. It operates using DTMF(Dual Tone 
+Multiple Frequency) technology. DTMF signals are transmitted from one phone to 
+another and the signals received at the receiver end are decoded and then fed to an 
+MCU which controls the motors of your land rover. This is a rough idea on how it works, 
+the amateurs in robotics who are interested in pursuing this project can go through the 
+referral links provided below:<br/>
+
+<a href="http://projectsworld.wordpress.com/2010/05/12/cell-phone-operated-land-rover">Link 1</a><br/>
+<a href="http://www.engineersgarage.com/contribution/ambhatt/cell-phone-operated-land-rover">Link 2</a></p>
+					<div class="inst">
+						<h2> RULES </h2>
+						<ul>
+							<li>Round 1: Speed is all that matters!!! Steer your way to perfection through the 
+   obstacles and curves on the track in the shortest possible time. Top 6 groups 
+   with the best time will be qualified to the second round.</li>
+							<li>Round 2: Skill to cut the sharp edges is going to come in handy!! Each group 
+   will have to race against the other two groups individually and the group with the 
+   highest score at the end of the round will be qualified to final round.</li>
+							<li> Round 3: All the four groups race on the same track  at the same time and the 
+   one who crosses the finish line first would be the winners of GSM LABYRINTH 
+   for the year 2015.</li>
+   
+<li>Now there is a necessity in having a uniformity in the ability of the rovers , so 
+   follow the precise requirements of the robot described in the rules and 
+   regulations section failing which would lead to disqualification.</li></ul>
+					</div>
+					<div class="inst">
+						<h2> ROBOT SPECIFICATIONS </h2>
+						<ul>
+						<li>
+  Robot should fit in a box of dimensions 0.40 m * 0.30 m * 0.5 m                 
+  (length*breadth*height).      </li>
+						<li> Weight of the bot shouldn’t exceed 2 Kg.</li>
+						</ul>
+						
+					</div>
+					
+						<div class="inst">
+						<h2>MACHINE CONTROL  </h2>
+						<ul>
+						<li> Robot should be controlled by GSM (Global System for Mobile) technology 
+   throughout the event. It should not be controlled by any other type of wireless 
+   communication.
+      </li>
+						<li>Ready-made DTMF decoder modules and SMS kits are not allowed. </li>
+						<li>Participants 
+  are allowed to build these modules manually and interface with the bot.
+
+</li>
+<li>Ready-made chassis are not allowed. Machine should not be build from any 
+   ready-made assembly kits.
+</li>
+<li> Motor used shouldn’t have rpm exceeding 300.</li>
+<li>An on -board power supply should be used. No external power supply will be 
+  provided. Teams should bring their own power supply.
+</li>
+<li>The method of propulsion is at the discretion of the builder, provided that the 
+   power source is non-polluting. In case the machine is using a non-electric power 
+   supply, kindly get it approved from the organizers beforehand via email.
+</li>
+<li> Under no circumstances shall the bot be removed from the track once it has 
+   entered the same.
+</li>
+<li> No external interruption is allowed when the bot is travelling through the track 
+  other than through the controlling mobile device.
+</li>
+<li>The bot will not be allowed to re enter the track once it gets out of it.</li>
+<li> The finer details of the rules are subjected to change though there will not be any 
+   changes in the basic rules and regulations.</li>
+						</ul>
+						
+					</div>
+						<div class="inst">
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 8000</p>
+						<p>Second prize : 5000</p>
+						<p>Third Prize : 2000</p>
+						<H2>SCHEDULE</H2>
+						<P>DATE : NOVEMBER 1</P>
+						<P>TIME : 9:30 AM</P>
+						<h2>CONTACT  </h2>
+					<p>T.REVANTH : (+91)9037489481</p>
+					<p>K.DIWAKAR KUMAR : (+91)9494484157  </p>
+					<p> M.HIMA KIRAN : (+91)9567035547  </p>
+					<p>B.MALLIKHARJUNA REDDY : (+91)8137911288</p>
+					<h2>EVENT MAIL</H2>
+						<P>gsm@tathva.org</P>
+						
+					</div>			
+					
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			<button id="close" class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+
+	<nav id="cd-vertical-nav">
+		<ul id="navtor">
+			<li>
+				<a href="#content-1" data-number="1">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Analog IQ</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-2" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">E-Racer</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-3" data-number="3">
+					<span class="cd-dot"></span>
+					<span class="cd-label">GSM Labyrinth</span>
+				</a>
+			</li>
+
+		</ul>
+	</nav>
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript" src="js/mods.js"></script>
+	<script src="bouncer/js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

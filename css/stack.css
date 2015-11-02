@@ -1,0 +1,146 @@
+.stack {
+    margin: 20px auto;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    max-width: 100%;
+    bottom: 63%;
+}
+
+.stack img{
+	width:100%;
+}
+
+.stack .lectures_img_div {
+	max-width: 100%;
+	width:500px;
+	height:auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	outline: 1px solid transparent;
+}
+
+.stack img.active_img {
+	position: relative;
+}
+
+/* Bouncy Grid */
+.stack-bouncygrid.active_lectures .lectures_img_div {
+	-webkit-transform: scale(0.48);
+	transform: scale(0.48);
+}
+
+
+.stack-bouncygrid.active_lectures .lectures_img_div:nth-child(1) {
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	
+}
+
+.stack-bouncygrid.active_lectures .lectures_img_div:nth-child(2) {
+	-webkit-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+}
+
+.stack-bouncygrid.active_lectures .lectures_img_div:nth-child(3) {
+	-webkit-transform-origin: 200% 0;
+	transform-origin: 200% 0%;
+}
+
+
+.stack-bouncygrid.active_lectures .lectures_img_div:nth-child(4) {
+	-webkit-transform-origin: 0 100%;
+	transform-origin: 0% 100%;
+}
+.stack-bouncygrid.active_lectures .lectures_img_div:nth-child(5) {
+	-webkit-transform-origin: 100% 100%;
+	transform-origin: 100% 100%;
+}
+
+.stack-bouncygrid.active_lectures .lectures_img_div:nth-child(6) {
+	-webkit-transform-origin: 200% 100%;
+	transform-origin: 200% 100%;
+}
+
+
+
+.active_lectures .lectures_img_div{
+	display:block !important;
+}
+
+.stack .lectures_img_div{
+	display:none;
+}
+
+.stack .active_img{
+	display:block;
+}
+
+.lectures_img_div::before{
+	content:'';
+	position:absolute;
+	left:40px;
+	right:40px;
+	top:40px;
+	bottom:40px;
+	border:1px solid #FFF;
+	transition-duration:.15s;
+	transition-property:*;
+	transition-timing-function:linear;
+	
+}
+
+.lectures_img_div:hover::before{
+	content:'';
+	position:absolute;
+	left:30px;
+	right:30px;
+	top:30px;
+	bottom:30px;
+	border:1px solid #FFF;
+	opacity:1;
+	background:#999;
+	opacity:.7;
+}
+
+.lecture_img_div{
+	position:absolute;
+	top:45px;
+	left:45px;
+	right:35px;
+	color:#FFF;
+	
+}
+
+.lectures_img_div{
+	cursor:pointer;
+}
+
+.lecture_img_div::before{
+	opacity:0;
+}
+
+.lecture_img_div:hover::before{
+	opacity:1;
+}
+
+.lectures_img_div p{
+	font-size:27px;
+	display:none;
+}
+
+.lectures_img_div:hover p{
+	display:block;
+}
+
+
+.lectures_img_div p{
+	font-size:18px;
+}
+
+
+
+

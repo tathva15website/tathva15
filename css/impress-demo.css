@@ -1,0 +1,151 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+    
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    min-height: 740px;
+
+	background:#232323;
+}
+
+
+.fallback-message {
+
+    width: 780px;
+    padding: 10px 10px 0;
+    margin: 20px auto;
+
+    border: 1px solid #E4C652;
+    border-radius: 10px;
+    background: #EEDC94;
+}
+
+.fallback-message p {
+    margin-bottom: 10px;
+}
+
+.impress-supported .fallback-message {
+    display: none;
+}
+
+
+.step {
+    position: relative;
+    width: 900px;
+    padding: 40px;
+    margin: 20px auto;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+
+
+}
+
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0.7;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;
+}
+
+.impress-enabled .step.active { opacity: 1 }
+
+.slide {
+    display: block;
+
+    width: 900px;
+    height: 700px;
+    padding: 40px 60px;
+    border: 5px solid #000;
+    
+    color: rgb(102, 102, 102);
+
+}
+
+#contact{
+	width: 900px;
+    height: 700px;
+    overflow-y:auto;
+}
+
+.slide q {
+    display: block;
+    
+    line-height: 72px;
+
+    margin-top: 100px;
+}
+
+.slide q strong {
+    white-space: nowrap;
+}
+
+
+.impress-enabled .hint { display: block }
+
+.impress-on-bored .hint {
+    opacity: 1;
+
+    -webkit-transform: translateY(0px);
+    -moz-transform:    translateY(0px);
+    -ms-transform:     translateY(0px);
+    -o-transform:      translateY(0px);
+    transform:         translateY(0px);
+
+    -webkit-transition: opacity 1s 5s, -webkit-transform 0.5s 4.5s;
+    -moz-transition:    opacity 1s 5s,    -moz-transform 0.5s 4.5s;
+    -ms-transition:     opacity 1s 5s,     -ms-transform 0.5s 4.5s;
+    -o-transition:      opacity 1s 5s,      -o-transform 0.5s 4.5s;
+    transition:         opacity 1s 5s,         transform 0.5s 4.5s;
+}
+
+

@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1024" />
+	<title>Category Name</title>
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/mods.css">
+	<script src="js/modernizr.custom.js"></script>
+	<!-- Bouncy Navigation Files -->
+	<link rel="stylesheet" href="bouncer/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="bouncer/css/style.css"> <!-- Resource style -->
+	<script src="bouncer/js/modernizr.js"></script> <!-- Modernizr -->
+	<!-- Navigator files -->
+	<link rel="stylesheet" href="navigator/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="navigator/css/style.css"> <!-- Resource style -->
+	<script src="navigator/js/modernizr.js"></script> <!-- Modernizr -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="../general.css" rel="stylesheet" type="text/css">
+	<script src="../general.js"></script>
+	
+</head>
+<body>
+
+	<a href="http://www.tathva.org/"><img id="tathvapic" src="../general_images/home.png" alt="Tathva pic"></a>
+
+	<a id="permodal" class="openthemodal permreg" >Get Tathva ID</a>
+
+	<style>
+    	.openthemodal{
+			padding:10px !important;
+			cursor:pointer;	
+			width:120px;
+		}
+    </style>
+
+	<div id="openModal" class="modalDialog">
+	    
+	    <div><a href="" title="Close1" class="close1">X</a>
+
+	    <iframe id="frames" src="" frameborder="0" scrolling="no"></iframe>
+	        
+	    </div>
+	</div>
+
+	<!-- Main container -->
+	<div class="container" style="opacity : 1">
+
+		<section class="cd-section">
+			<a class="cd-bouncy-nav-trigger" href="#0">Browse categories</a>
+		</section> <!-- .cd-section -->
+
+		<div class="cd-bouncy-nav-modal">
+			<style>
+            	.cd-bouncy-nav a{
+						opacity:0;
+				}
+				
+				.cd-bouncy-nav a::before{
+					display:none;
+					
+				}
+				
+            	.cd-bouncy-nav li:hover a{
+						opacity:1;
+				}
+				.cd-bouncy-nav li{
+					height: 160px;
+    				overflow: hidden;
+				}
+            </style>
+            
+            <nav >
+				<ul class="cd-bouncy-nav">
+					<li style="background:url(ic1/ec.png);background-size:contain;"><a href="../Electronics/index.html" style="width:100%;height:100%">Electronics</a></li>
+					<li style="background:url(ic1/elec.png);background-size:contain;"><a href="../Electrical/index.html"  style="width:100%;height:100%">Electrical</a></li>
+					<li style="background:url(ic1/robotics.png);background-size:contain;"><a href="../Robotics/index.html"  style="width:100%;height:100%">Robotics</a></li>
+					<li style="background:url(ic1/blueprint.png);background-size:contain;"><a href="../Blueprint/index.html"  style="width:100%;height:100%">Blueprint<br>paper<br>presentation</a></li>
+					<li style="background:url(ic1/adizya.png);background-size:contain;"><a href="../Adizya/index.html"  style="width:100%;height:100%">Adizya</a></li>
+					<li style="background:url(ic1/blizk.png);background-size:contain;"><a href="../Blitzkrieg/index.html"  style="width:100%;height:100%">Blitzkrieg</a></li>
+					<li style="background:url(ic1/phy.png);background-size:contain;"><a href="../Physics/index.html"  style="width:100%;height:100%">Physics</a></li>
+					<li style="background:url(ic1/online.png);background-size:contain;"><a href="../Online Events/index.html"  style="width:100%;height:100%">Online Events</a></li>
+					<li style="background:url(ic1/quiz.png);background-size:contain;"><a href="../Quiz/index.html"  style="width:100%;height:100%">Quizzing</a></li>
+					<li style="background:url(ic1/mech.png);background-size:contain;"><a href="../Mechanical/index.html"  style="width:100%;height:100%">Mechanical</a></li>
+					<li style="background:url(ic1/civil.png);background-size:contain;"><a href="../Civil/index.html"  style="width:100%;height:100%">Civil</a></li>
+					<li style="background:url(ic1/general.png);background-size:contain;"><a href="../General/index.html"  style="width:100%;height:100%">General</a></li>
+					<li style="background:url(ic1/CS.png);background-size:contain;"><a href="../Computer_Science/index.html"  style="width:100%;height:100%">Computer Science</a></li>					
+					<li style="background:url(ic1/youngengg.png);background-size:contain;"><a href="../Young_Engineer/index.html"  style="width:100%;height:100%">Young Engineer</a></li>
+					<li style="background:url(ic1/manag.png);background-size:contain;"><a href="../Bizspark/index.html"  style="width:100%;height:100%">Bizspark</a></li>
+					<li style="background:url(ic1/workshop.png);background-size:contain;"><a href="../Workshops/index.html"  style="width:100%;height:100%">Workshops</a></li>
+					<li style="background:url(ic1/chemical.png);background-size:contain;"><a href="../Chemical/index.html"  style="width:100%;height:100%">Chemical</a></li>
+					
+				</ul>
+			</nav>
+			
+			<a href="#0" class="cd-close">Close modal</a>
+
+		</div>
+		
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/elec.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> ELECTRICAL </span> </h2>
+				<p>   </p>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/elec.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> ELECTRICAL </span> </h2>
+				<p>   </p>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/elec.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> ELECTRICAL </span> </h2>
+				<p>   </p>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/elec.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> ELECTRICAL </span> </h2>
+				<p>   </p>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev" id="moveleft"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom" id="magnify"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next" id="moveright"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+		
+
+		<div class="content__item" id="content-1" href="EE001">
+				<div class="content__item-inner">
+					<h2>ACCELEROBOTICS</h2>
+					<h3></h3>
+					<p>The coolest bot race is in town. We at NIT Calicut give you a chance to prove your robotics skills. Control your bot with hand gestures and become the ultimate racing champion!</p>
+					<div class="inst">
+						<h2>PROBLEM STATEMENT</h2>
+						<p>
+						Manipulate a wired/wireless robot, majorly created and coded manually ,controlled solely by hand gestures through a challenging course and earn bonus points by dropping balls in holes.
+						
+						</p>
+						<h2>ARENA</h2>
+						<p>The arena would span a total area of 4.5m x 2.5m. The inner width of the track through which the bot has to travel will be 35cm. The whole track will be bounded by boulders. The course will offer a number of hurdles and balls. The holes are along the path. The diameter of ball is 3.788cm.
+There will be two paths:
+
+One long, flat path.
+A shorter path with a bridge inclined at a maximum angle of 30 degrees.
+The participants are free to decide the path to be taken by their bot.
+
+						
+						</p>
+						<h2>MACHINE SPECIFICATION</h2>
+						<p>The maximum dimension allowed for the bot is 20x20x12 cm. Also, the bot should not be smaller than 6x5x2 cm. The machine should be controlled by a wireless/wired mechanism that uses only wrist movements to manipulate the movement of vehicle.
+The machine cannot be made of lego parts or any readymade assembly kits.
+Readymade microcontroller boards, readymade sensor kits and accelerometers can be used. Power supply for the system will NOT be provided.
+
+						</p>
+						<h2>EVENT RULES</h2>
+						<ul>
+							<li>Duration of each match is 10 minutes.</li>
+							<li>The teams are required to finish the path, along with dropping at least 5 balls in the holes.</li>
+							<li>Extra points will be awarded for the remaining balls.</li>
+							<li>If the minimum requirements are not met, negative points will be awarded accordingly.</li>
+							<li>If the ball gets cornered, it will be placed back to the original position. But you can play that ball after playing another ball.</li>
+							<li>During movements red bricks should not be hit.</li>
+							<li>If at any point during the race the vehicle encounters a problem, the participants will be given one minute to fix it.</li>
+							<li>There will two matches for each team from the starting point. The best of two will be considered.</li>
+							<li>In case of tie, a re-match will be held.</li>
+							<li>The contestants should be ready with the circuit diagrams, algorithms and code listing to give proper answers to any questions by the judges.</li>
+							<li>The event managers reserve the right to change any or all of the above rules as they deem fit. Change in rules, if any, will be highlighted on the website an notified to the registered participants.</li>
+							
+						</ul>
+						<h2>TEAM SPECIFICATION</h2>
+						<p>Each team can have a maximum of 3 members. Team members will have to produce valid ID card of their institute.
+
+Cross college teams are permitted.
+
+						</p>
+						<h2>JUDGING CRITERIA</h2>
+						<p>The judge’s decision shall be final and binding.
+
+SCORE= 50 –[(your best time – event best time)/event best time] *40 – [(5 – number of balls dropped) * 10]-(number of red bricks hit).
+
+						</p>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 12000</p>
+						<p>Second prize : 9000</p>
+						<p>Third Prize : 6000</p>
+						<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30</P>
+						<P>TIME : 9:30 AM</P>
+						<h2>CONTACT</h2>
+						<p>Nishreyas Aruni : 9020957581</p>
+
+						<p>Niveditha Suresh : 9495772841
+
+						</p>
+						<h2>EVENT MAIL</H2>
+						<P>accelerobotx@tathva.org</P>
+						
+						
+						
+						
+					
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+         
+
+
+		 <div class="content__item" id="content-2" href="EE002">
+				<div class="content__item-inner">
+					<h2>CIRCUITRACE</h2>
+					<h3></h3>
+					<p>The circuit is set, get a tight hold of the waistline, roll over the tracks and snatch the champagne! </p>
+					<div class="inst">
+						<h2>EVENT SPECIFICATION</h2>
+						<p>The competition will be carried out in three rounds:<br><br>
+
+ROUND 1:<br><br>
+
+1. Paper-pen round.<br>
+2. Will consist of two sections. First one will be an MCQ test where questions will be on 
+general electrical engineering and logical reasoning. Second section will be a crossword
+puzzle, the answers to which will direct you to the circuits to be designed in the second round.<br>
+3. Time limit for section one is half an hour. The time limit for section two will be 
+announced during the competition.<br>
+4. At most 8 teams can qualify for the second round.<br><br>
+
+ROUND 2:<br> <br>
+
+1. Each team will be given 1 hour to design and assemble the circuits they have inferred from the puzzle section (of round1). They will be provided with hints if asked for, but points will be deducted for each hint provided.<br>
+2. The team can ask for another circuit if they have completed the first one before the 
+scheduled time, and the points for second circuit will be double, third will be quadruple,…and so on.<br>
+3. The components will be provided along with the circuit details for the next to be assembled.<br>
+4.  Only completed circuits will be awarded with points (considering the performance of all teams).<br>
+5. Speed and neatness will be considered.<br>
+6. Four teams that qualify for the final round will be decided solely by the organizers.<br><br>
+
+ROUND 3:<br> <br>
+
+1. Qualified teams will be given three different circuit diagrams and the required 
+components. One member can work on one circuit at a time.<br>
+2. Four teams will get the same set of three circuits each.<br>
+3. Whenever a buzzer is heard, the team members will have to switch their circuits and continue assembling the circuit that their team-mates were handling before.<br>
+4. Please note that no sort of communication shall be allowed between the teammates
+
+during the run-time.<br>
+5. There will be a separate buzzer when the opponent team members will be allowed to 
+distract the other teams by interchanging the COMPONENTS ONLY. The wirings are
+not to be hampered and this will be done under the supervision of the members of the 
+organizing committee. Time for this will not be more than 10 seconds.<br>
+6. All of the circuits will be tested. If found working, marks shall be awarded for speed and neatness of the circuits.<br>
+
+						</p>
+						
+						<h2>RULES</h2>
+						<ul>
+							<li>Each team must consist of 3 members.</li>
+							<li>Teams will NOT be allowed to use their own components for the event. All necessary components will be provided by the organizers at the venue.</li>
+							
+						</ul>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 5000</p>
+						<p>Second prize : 3000</p>
+						<p>Third Prize : 2000</p>
+						<H2>SCHEDULE</H2>
+						<H3>ROUND 1</H3>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 11 AM</P>
+						<H3>ROUND 2</H3>
+						<P>DATE : OCTOBER 31</p>
+						<P>TIME : 1 PM</P>
+						<H3>ROUND 3</H3>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 4 PM</P>
+						
+						<h2>CONTACT</h2>
+						<p>Debanjan Dey : 8893541023</p>
+						<p>Pradeep Kumar : 8137900677</p>
+						<p>Rohitash : 9567036700</p>
+						<h2>EVENT MAIL</H2>
+						<P>circuitrace@tathva.org</P>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			
+			<div class="content__item" id="content-3" href="EE003">
+				<div class="content__item-inner">
+					<h2>COIL GUN</h2>
+					<h3></h3>
+					<p>Use circuit designing techniques and knowledge of electro-mechanics to accelerate your bullet with the help of triggering circuit. Prove yourself in the design war with your skill and knowledge put to test. Come forward, participate in this event and own your own gun and that too "electric".</p>
+					<div class="inst">
+						<h2>INTRODUCTION </h2>
+						<p>A coil gun is a type of projectile accelerator consisting of one or more coils used as electromagnets in the configuration of a linear motor that accelerates a ferromagnetic or conducting projectile to high velocity.
+						</p>
+						<h2>PROBLEM STATEMENT</h2>
+						<p>You are supposed to build a coil gun which runs only on the given 30V DC power supply to fire a given small ferromagnetic bullet to a maximum horizontal distance.
+						</p>
+						<h2>MAIN EVENT</h2>
+						<p>It consists of 3 rounds which will put your knowledge, skill, and accuracy to test.<br>
+Round l :<br>
+This will be a skill test round. It will check the participant's knowledge and scope regarding coil gun. MCQs will be asked on concept of coil gun.
+<br>Round ll :<br>
+The teams which are looking forward to present their coil guns will be given an opportunity to give a presentation in this round. All necessary details and specifications of coil gun are to be specified by the contestants in this round.
+<br>Round lll :<br>
+This round will decide the efficiency and strength of coil gun presented by contestants. Contestants are supposed to hit a dummy target as accurately as possible with their gun.
+</p>
+					<h2>JUDGING CRITERIA</h2>
+					<p>Round l :<br>
+Marks will be given on the basis of number of questions correctly answered.
+<br>Round ll :<br>
+Marks distribution will be based on the following criteria.<br>
+1. Design of coil gun (efficiency, strength, reliability).<br>
+2. Final range (average of all three chances). The first point of contact will be considered for distance measurement.
+	
+
+<br>Round lll :<br>
+Marks will be awarded on the basis of accuracy of the  gun, depending on how close the bullet misses the target.
+
+					</p>
+					<h2>PRIZES WORTH</H2>
+						<P>First prize : 5000</p>
+						<p>Second prize : 3000</p>
+						<p>Third Prize : 2000</p>
+					<H2>SCHEDULE</H2>
+					<H3>ROUND 1</H3>
+					<P>DATE : OCTOBER 31</P>
+					<P>TIME : 9:30 AM</P>
+					<H3>ROUND 2</H3>
+					<P>DATE : OCTOBER 31</P>
+					<P>TIME : 11:00 AM</P>
+					<H3>ROUND 3</H3>
+					<P>DATE : OCTOBER 31</P>
+					<P>TIME : 2:00 PM</P>
+					
+					<h2>CONTACT</h2>
+					<p>K AKHILESH : 8137911200</p>
+					<p>E MOHAN KRISHNA : 9567036824</p>
+					<p>SHAHEERA BANO : 8137911055</p>
+					<h2>EVENT MAIL</H2>
+						<P>coilgun@tathva.org</P>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			
+			<div class="content__item" id="content-4" href="EE004">
+				<div class="content__item-inner">
+					<h2>DIGIMANIA</h2>
+					<h3></h3>
+					<p>Ready to enter the world of tron….?<br>
+Participate in our event  to prove your  mastery in digital systems…. 
+</p>
+					<div class="inst">
+						<h2>EVENT DESCRIPTION</h2>
+						<p>(Maximum 3 per team)<br><br>
+
+ROUND 1:<br>
+
+MCQ (pen and paper)<br>
+Time Limit : 45 minutes.<br>
+Judging criteria :<br>
+1.Correct answer : +5 MARKS<br>
+2. wrong answer :  -2 MARKS<br>
+Based on the marks scored, top 15 teams will be selected for round 2.<br><br>
+
+ROUND 2:<br>
+
+A proteus simulation file of  combinational/sequential circuits will be given along with the required input/output conditions. All you need to do is find the mistakes in the circuits and rectify them. A circuit will have a maximum of 5 mistakes.<br>
+Time limit : 40 minutes<br>
+Judging Criteria:<br>
+Identifying a mistake will give you 10 marks and correcting a mistake will give you 5 marks. 3 marks will be deducted for an incorrect identification. <br>
+Based on the marks scored in both round 1 and round 2, top 7 teams will be selected for round 3.<br><br>
+
+ROUND 3:<br>
+
+Design a combinational/sequential circuit as a solution to the given problem statement. The design has to be simulated in Proteus v8 or higher.<br>
+Time limit : 1 hr 30 min<br>
+Judging Criteria <br>
+ 1. Incomplete circuits will not be evaluated<br>
+ 2. Bonus points for the circuit with least number of components<br>
+ 3. Circuits with a neat schematic will be given extra points. The winners will be decided on the basis of total points(Round 1 + Round 2 + Round 3).<br>
+The rules are subject to change based on the decision of the event managers.<br>
+
+						</p>
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 5000</p>
+						<p>Second prize : 3000</p>
+						<p>Third Prize : 2000</p>
+						<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30</P>
+						<P>TIME : 9:30 AM</P>
+						
+						<h2>CONTACT</h2>
+						<p>A T S ANVESH : 8137911330</p>
+						<p>B. DINESH : 9496226876</p>
+						<p>U.PAVAN : 9037489722</p>
+						
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>			
+			
+			
+			<button id="close" class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	
+
+	<nav id="cd-vertical-nav">
+		<ul id="navtor">
+			<li>
+				<a href="#content-1" data-number="1">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Accelerobotics</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-2" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Circuitrace</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-3" data-number="3">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Coil gun</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-4" data-number="4">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Digimania</span>
+				</a>
+			</li>
+
+		</ul>
+	</nav>
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript" src="js/mods.js"></script>
+	<script src="bouncer/js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1024" />
+	<title>Category Name</title>
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/mods.css">
+	<script src="js/modernizr.custom.js"></script>
+	<!-- Bouncy Navigation Files -->
+	<link rel="stylesheet" href="bouncer/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="bouncer/css/style.css"> <!-- Resource style -->
+	<script src="bouncer/js/modernizr.js"></script> <!-- Modernizr -->
+	<!-- Navigator files -->
+	<link rel="stylesheet" href="navigator/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="navigator/css/style.css"> <!-- Resource style -->
+	<script src="navigator/js/modernizr.js"></script> <!-- Modernizr -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="../general.css" rel="stylesheet" type="text/css">
+	<script src="../general.js"></script>
+	
+</head>
+<body>
+
+	<a href="http://www.tathva.org/"><img id="tathvapic" src="../general_images/home.png" alt="Tathva pic"></a>
+
+	<a id="permodal" class="openthemodal permreg" >Get Tathva ID</a>
+
+	<style>
+    	.openthemodal{
+			padding:10px !important;
+			cursor:pointer;	
+			width:120px;
+		}
+    </style>
+
+	<div id="openModal" class="modalDialog">
+	    
+	    <div><a href="" title="Close1" class="close1">X</a>
+
+	    <iframe id="frames" src="" frameborder="0" scrolling="no"></iframe>
+	        
+	    </div>
+	</div>
+
+	<!-- Main container -->
+	<div class="container" style="opacity : 1">
+
+		<section class="cd-section">
+			<a class="cd-bouncy-nav-trigger" href="#0">Browse categories</a>
+		</section> <!-- .cd-section -->
+
+		<div class="cd-bouncy-nav-modal">
+			<style>
+            	.cd-bouncy-nav a{
+						opacity:0;
+				}
+				
+				.cd-bouncy-nav a::before{
+					display:none;
+					
+				}
+				
+            	.cd-bouncy-nav li:hover a{
+						opacity:1;
+				}
+				.cd-bouncy-nav li{
+					height: 160px;
+    				overflow: hidden;
+				}
+            </style>
+            
+            <nav >
+				<ul class="cd-bouncy-nav">
+					<li style="background:url(ic1/ec.png);background-size:contain;"><a href="../Electronics/index.html" style="width:100%;height:100%">Electronics</a></li>
+					<li style="background:url(ic1/elec.png);background-size:contain;"><a href="../Electrical/index.html"  style="width:100%;height:100%">Electrical</a></li>
+					<li style="background:url(ic1/robotics.png);background-size:contain;"><a href="../Robotics/index.html"  style="width:100%;height:100%">Robotics</a></li>
+					<li style="background:url(ic1/blueprint.png);background-size:contain;"><a href="../Blueprint/index.html"  style="width:100%;height:100%">Blueprint<br>paper<br>presentation</a></li>
+					<li style="background:url(ic1/adizya.png);background-size:contain;"><a href="../Adizya/index.html"  style="width:100%;height:100%">Adizya</a></li>
+					<li style="background:url(ic1/blizk.png);background-size:contain;"><a href="../Blitzkrieg/index.html"  style="width:100%;height:100%">Blitzkrieg</a></li>
+					<li style="background:url(ic1/phy.png);background-size:contain;"><a href="../Physics/index.html"  style="width:100%;height:100%">Physics</a></li>
+					<li style="background:url(ic1/online.png);background-size:contain;"><a href="../Online Events/index.html"  style="width:100%;height:100%">Online Events</a></li>
+					<li style="background:url(ic1/quiz.png);background-size:contain;"><a href="../Quiz/index.html"  style="width:100%;height:100%">Quizzing</a></li>
+					<li style="background:url(ic1/mech.png);background-size:contain;"><a href="../Mechanical/index.html"  style="width:100%;height:100%">Mechanical</a></li>
+					<li style="background:url(ic1/civil.png);background-size:contain;"><a href="../Civil/index.html"  style="width:100%;height:100%">Civil</a></li>
+					<li style="background:url(ic1/general.png);background-size:contain;"><a href="../General/index.html"  style="width:100%;height:100%">General</a></li>
+					<li style="background:url(ic1/CS.png);background-size:contain;"><a href="../Computer_Science/index.html"  style="width:100%;height:100%">Computer Science</a></li>					
+					<li style="background:url(ic1/youngengg.png);background-size:contain;"><a href="../Young_Engineer/index.html"  style="width:100%;height:100%">Young Engineer</a></li>
+					<li style="background:url(ic1/manag.png);background-size:contain;"><a href="../Bizspark/index.html"  style="width:100%;height:100%">Bizspark</a></li>
+					<li style="background:url(ic1/workshop.png);background-size:contain;"><a href="../Workshops/index.html"  style="width:100%;height:100%">Workshops</a></li>
+					<li style="background:url(ic1/chemical.png);background-size:contain;"><a href="../Chemical/index.html"  style="width:100%;height:100%">Chemical</a></li>
+					
+				</ul>
+			</nav>
+			
+			<a href="#0" class="cd-close">Close modal</a>
+
+		</div>
+		
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/civil.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> CIVIL </span> </h2>
+				
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/civil.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> CIVIL </span> </h2>
+				
+			</div>
+				<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/civil.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> CIVIL </span> </h2>
+				
+			</div>
+				<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img height="350px" width="370px" src="ic/civil.png"/>
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span> CIVIL </span> </h2>
+				
+			</div>
+			
+			<nav class="slider__nav">
+				<button class="button button--nav-prev" id="moveleft"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom" id="magnify"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next" id="moveright"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1" href="CE001">
+				<div class="content__item-inner">
+					<h2>CAD ART</h2>
+					<h3></h3>
+					<p>CAD-Art is a software based competition of Autodesk Auto CAD(ver. 18.0 to 20.1) .The event is basically on 2-Dimensional (2D) design.You are introduced  to the construction and production industry in a positive and challenging manner.</p>
+					<div class="inst">
+						<h2> DETAILS </h2>
+						<ul>
+							<li>Event contains a preliminary screening test.</li>
+							<li>Test will be conducted on basic Engineering Drawing and Auto CAD knowledge.</li>
+							<li>People who pass the screening test are allowed to next round.</li>
+							<li>Questions may be related to civil engineering or mechanical engineering drawings.</li>
+							<li>Laptops will be provided at the venue itself. Incase of any insufficiency of laptops,competitiors are separated into batches.</li>
+							<li>All the stationary required for rough work are also provided at venue.</li>
+						</ul>
+					</div>
+					
+					<div class="inst">
+						<h2> RULES </h2>
+						<ul>
+							<li>No extensions and plug-ins to Autodesk Auto CAD basic software are allowed.</li>
+							<li>The final soft copy should be submitted in the native file format (.dwg).</li>
+							<li>No soft or hard copies of shortcuts and tutorials are encouraged.</li>
+							<li>Use of Android Auto CAD 360 software for better purposes is strictly prohibited.</li>
+						</ul>
+					</div>
+					<div class="inst">
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 4000</p>
+						<p>Second prize : 2000</p>
+						<p>Third Prize : 1000</p>
+						<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 30</P>
+						<P>TIME : 10:00 AM TO 5:00 PM</P>
+						<h2>CONTACT</h2>
+						
+						<p>Jayalekshmi S : 9447647633</p>
+						<p>P Bhargav Ram : 9544677451</p>
+						<p>N Jayendra Srinivas : 7736802465</p>
+						
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+            <div class="content__item" id="content-2" href="CE002">
+				<div class="content__item-inner">
+					<h2>DESCARTES' SQUARE</h2>
+					
+					<p>It took 60 years for William Lambton and George Everest to complete the great trigonometric survey of India covering heights of even the Himalayan giants Everest and Kanchenjunga! Do you have what it takes to be a great surveyor, then step right forward.Descartes Square tests your knowledge on basic surveying and geometry along with your practical skills.</p>
+					<div class="inst">
+						<h2>DETAILS</h2>
+						<ul>
+							<li>The preliminary round tests your knowledge in the subject through a series of questions and problems on surveying and logical thinking. </li>
+							<li>Five top scorers of the prelims proceed to the second round.</li>
+							<li>The second round puts your practical skills to the test. You will have to solve a practical problem in the field with instruments given.</li>
+						
+						</ul>
+					</div>
+					<div class="inst">
+						<h2>JUDGING CRITERIA</h2>
+						<ul>
+							<li>The marking scheme for prelims questions will be given in the question paper. </li>
+							<li>Five Top Scorers will proceed to the second round. </li>
+							<li>Your score in the second round will depend on how fast you are in each stage of solving the problem and how accurate your final results are.</li>
+						</ul>
+					</div>
+					<div class="inst">
+						<h2> RULES</h2>
+						<ul>
+							<li>There should be exactly two members in a group. No more no less.</li>
+							<li>Considering the first round is a written test, you know what not to do in an exam. Violators will be disqualified.</li>
+							<li>Decision of the judges is final.</li>
+							<li>Use of instruments other than which is provided to you is prohibited.</li>
+						</ul>
+					</div>
+					<div class="inst">
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 5000</p>
+						<p>Second prize : 2500</p>
+						<p>Third Prize : 1000</p>
+						<H2>SCHEDULE</H2>
+						<P>DATE : NOVEMBER 1</P>
+						<P>TIME : 9:30 AM</P>
+						<h2>CONTACT</h2>
+						<p>SARVANI NANDIPATI : 8137899355</p>
+						<p> SAHANA KANDUKURI : 9567037017</p>
+						<p> AMOL NAMDEO : 8156973480</p>
+						<H2>EVENT MAIL</H2>
+							<P>descartessquare@tathva.org</P>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			
+			<div class="content__item" id="content-3" href="CE003">
+				<div class="content__item-inner">
+					<h2>LINKIDGE</h2>
+					<p>The first bridges were made from nature – as simple as a log fallen across a stream. The first bridges made by humans were probably spans of wooden logs or planks and eventually stones, using a simple support and cross beam arrangement. But when it came for larger spans, trusses were introduced, which is now, the most widely used structural designs, many a time being utilized as structural solution of choice of bridges, roofs, cranes, aircrafts and even robots and spaceships!.</p>
+					
+					<div class="inst">
+						<h2> PROBLEM STATEMENT </h2>
+	                    <p>Use ice cream sticks to create a truss bridge that satisfies the given requirements.</p>
+					</div>
+					<div class="inst">
+						<h2> DESIGN CONSTRAINTS </h2>
+						<p>Span of the truss bridge should be between 400 and 450mm. If the span of the structure is less than 400mm or more than 450mm, then the team will be disqualified. Maximum overlap between 2 sticks must be only 50%.</p>
+						
+					</div>
+					<div class="inst">
+						<h2> RULES AND REGULATIONS </h2>
+						<ul>
+							<li> Each team will be provided with 400 icecream sticks and a limited quantity of adhesive.  </li>
+							<li>Measuring instruments (rulers), cutting instruments (blades, scissors) will be provided on request. </li>
+                            <li>Participants are not allowed to carry any material of their own</li>
+                            <li>Time limit is 3 hours for making the structure. </li>
+                            <li>The team can consist of a maximum of 5 and a minimum of 3 members.</li>
+                            <li>If the number of registrations exceeds 8, then a primary round will be conducted and the top 8 teams will be selected for the final round.</li>
+						</ul>
+					</div>
+					<div class="inst">
+						<h2> JUDGING CRITERIA</h2>
+						<p>Judging will be based on the maximum load taken by the structure and the efficiency ratio. Also a weightage will be given for the mark obtained in preliminary round. preliminary round(MCQ) related to structural design will be there.</p>
+					</div>
+					<div class="inst">
+						<h2>PRIZES WORTH</H2>
+						<P>First prize : 5000</p>
+						<p>Second prize : 3000</p>
+						<p>Third Prize : 2000</p>
+						<H2>SCHEDULE</H2>
+						<P>DATE : OCTOBER 31</P>
+						<P>TIME : 2:00 PM TO 5:00PM</P>
+						<h2>CONTACT</h2>
+						<p>Navneeth B : 8547246259</p>
+                        <p>Anupama V A : 9447248395  vaanupama9@gmail.com</p>
+                        <p>Sethu Raj R : 8137800301  sethu2794@gmail.com<br><br></p>
+						</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div>
+			
+			<!-- <div class="content__item" id="content-4" href="CE004">
+				<div class="content__item-inner">
+					<h2>MAGNITUDE</h2>
+					
+					<p>This Tathva, prepare to activate your grey cells against the nature's deadliest earthquakes!!</p>
+					<div class="inst">
+						<h2>PROBLEM STATEMENT</h2>
+						<p>Design a detachable Tuned Mass Damper (TMD) for a Single Storied building model for the purpose of controlling the vibrations of the building model.</p>
+						
+
+					</div>
+					<div class="inst">
+						<h2>SPECIFICATIONS </h2>
+						<p>The model shall be fabricated using Steel/Aluminum flats and plates with bolted connections. </p>
+
+                         <p>The following are the requirements:</p>
+
+
+						<ul>
+							<p>The model should be single storied with four sides open.
+							Base (platform) -Length (27cm), Breadth (19cm), Thickness(less than 1.9cm).
+							Height of the model: 30 to 40 cm.
+							Max. weight of the building model – 5 kg.
+							Range of Natural frequency of the model – 5 to 10 Hz.</P>
+							<p>The building model should have a base plate with four bolt holes having a diameter of 
+1cm. This is for the purpose of fixing the model onto the shake table. The dimensions of the base plate (ground floor) of the model are given in the figure below (N.B. All dimensions are in cm).The center to center distance between the holes in the base plate should be 10.2cm and 20 cm. The holes are for fixing the model to the shake table for experimentation and evaluation.</p>
+
+						    <p>Refer this link for baseplate dimesnions:
+							<a href="https://drive.google.com/open?id=0B-V2mCUiI0nWSnFNc2lvcnp4em8">click here</a></p>
+                             <p>THE DIRECTION OF VIBRATION IS ALONG THE SHORTER SIDE OF THE BASE 
+PLATE.</p>
+<p>For further details refer:
+<a href="https://drive.google.com/open?id=0B-V2mCUiI0nWV0FUYmV4eTNMSnM">Click here</a></p>
+						</ul>
+					</div>
+					<div class="inst">
+						<h2> JUDGING CRITERIA </h2>
+						<p>The natural frequency of the building model fabricated should be reported along with the model.</p>
+						<p>The model is kept on a horizontal 1-D shake table and vibrated. The same building will be fitted with the TMD and tested for exhibiting the vibration control. The winners will be selected based on the perfection of fabrication and the amount of vibration control achieved through the TMD. They also have to bring a report depicting the calculations involved, which will also carry weightage.</p>
+					</div>
+					<div class="inst">
+						<h2> PARTICIPATION </h2>
+						<p>Minimum number of participants: 1</p>
+						<p>Maximum number of participants: 3</p>
+					</div>
+					<div class="inst">
+						<h2> CONTACT </h2>
+						<p>Gokul P.R  (+91)8547167619</p>
+						<p>Aarya A (+91)8089169220</p>
+						<p>Akhil Teja (+91)7736231063</p>
+						<p>EVENT MAIL ID:</p>
+						<p>magnitude@tathva.org</p>
+					</div>
+					<center><a class="eventreg eventregclass openthemodal">Register for this event</a></center>
+				</div>
+			</div> -->
+			
+			<button id="close" class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+
+	<nav id="cd-vertical-nav">
+		<ul id="navtor">
+			<li>
+				<a href="#content-1" data-number="1">
+					<span class="cd-dot"></span>
+					<span class="cd-label">CAD Art</span>
+				</a>
+			</li>
+			<li>
+				<a href="#content-2" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Descartes' Square</span>
+				</a>
+			</li>
+				<li>
+				<a href="#content-3" data-number="3">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Linkidge</span>
+				</a>
+			<!-- </li>
+				<li>
+				<a href="#content-4" data-number="4">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Magnitude</span>
+				</a>
+			</li> -->
+
+		</ul>
+	</nav>
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript" src="js/mods.js"></script>
+	<script src="bouncer/js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
