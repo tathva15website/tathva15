@@ -1,9 +1,0 @@
-[13-Oct-2015 07:02:21 America/Chicago] PHP Warning:  require(connectDatabase.php): failed to open stream: No such file or directory in /home2/nitcfest/public_html/events/Org/event_manager.php on line 127
-[13-Oct-2015 07:02:21 America/Chicago] PHP Warning:  require(connectDatabase.php): failed to open stream: No such file or directory in /home2/nitcfest/public_html/events/Org/event_manager.php on line 127
-[13-Oct-2015 07:02:21 America/Chicago] PHP Fatal error:  require(): Failed opening required 'connectDatabase.php' (include_path='.:/opt/php54/lib/php') in /home2/nitcfest/public_html/events/Org/event_manager.php on line 127
-[13-Oct-2015 07:02:56 America/Chicago] PHP Warning:  require(connectDatabase.php): failed to open stream: No such file or directory in /home2/nitcfest/public_html/events/Org/event_manager.php on line 127
-[13-Oct-2015 07:02:56 America/Chicago] PHP Warning:  require(connectDatabase.php): failed to open stream: No such file or directory in /home2/nitcfest/public_html/events/Org/event_manager.php on line 127
-[13-Oct-2015 07:02:56 America/Chicago] PHP Fatal error:  require(): Failed opening required 'connectDatabase.php' (include_path='.:/opt/php54/lib/php') in /home2/nitcfest/public_html/events/Org/event_manager.php on line 127
-[15-Oct-2015 07:39:09 America/Chicago] PHP Warning:  require(connectDatabase.php): failed to open stream: No such file or directory in /home2/nitcfest/public_html/events/Org/event_manager.php on line 127
-[15-Oct-2015 07:39:09 America/Chicago] PHP Warning:  require(connectDatabase.php): failed to open stream: No such file or directory in /home2/nitcfest/public_html/events/Org/event_manager.php on line 127
-[15-Oct-2015 07:39:09 America/Chicago] PHP Fatal error:  require(): Failed opening required 'connectDatabase.php' (include_path='.:/opt/php54/lib/php') in /home2/nitcfest/public_html/events/Org/event_manager.php on line 127
